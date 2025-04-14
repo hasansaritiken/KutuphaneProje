@@ -2,6 +2,7 @@
 using Kutuphane.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -9,9 +10,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Kutuphane.Migrations
 {
     [DbContext(typeof(KutuphaneDbContext))]
-    partial class KutuphaneDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250414065905_Baslangıc1")]
+    partial class Baslangıc1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.3");
@@ -22,24 +25,18 @@ namespace Kutuphane.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("OgrenciAdi")
+                    b.Property<string>("OgrenciAd")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("OgrenciSoyadi")
+                    b.Property<string>("OgrenciSoyad")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("OkulNumarasi")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("SinifId")
-                        .HasColumnType("TEXT");
-
-                    b.Property<int?>("SinifId1")
+                    b.Property<int?>("SinifId")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("SinifId1");
+                    b.HasIndex("SinifId");
 
                     b.ToTable("Ogrenciler");
                 });
@@ -62,7 +59,7 @@ namespace Kutuphane.Migrations
                 {
                     b.HasOne("Kutuphane.Models.Sinif", "Sinif")
                         .WithMany("Ogrenciler")
-                        .HasForeignKey("SinifId1");
+                        .HasForeignKey("SinifId");
 
                     b.Navigation("Sinif");
                 });
