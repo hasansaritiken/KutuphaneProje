@@ -17,101 +17,101 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Kutuphane
 build_property.RootNamespace = Kutuphane
-build_property.ProjectDir = C:\Users\hasan566\Desktop\KutuphaneProje\
+build_property.ProjectDir = C:\Users\Acer\Desktop\KutuphaneProje\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\hasan566\Desktop\KutuphaneProje
+build_property.MSBuildProjectDirectory = C:\Users\Acer\Desktop\KutuphaneProje
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Home/Index.cshtml]
+[C:/Users/Acer/Desktop/KutuphaneProje/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Home/Privacy.cshtml]
+[C:/Users/Acer/Desktop/KutuphaneProje/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Kategori/Ekle.cshtml]
+[C:/Users/Acer/Desktop/KutuphaneProje/Views/Kategori/Ekle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcRWtsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Kategori/Guncelle.cshtml]
+[C:/Users/Acer/Desktop/KutuphaneProje/Views/Kategori/Guncelle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcR3VuY2VsbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Kategori/Index.cshtml]
+[C:/Users/Acer/Desktop/KutuphaneProje/Views/Kategori/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Kategori/Sil.cshtml]
+[C:/Users/Acer/Desktop/KutuphaneProje/Views/Kategori/Sil.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcU2lsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Kitap/Create.cshtml]
+[C:/Users/Acer/Desktop/KutuphaneProje/Views/Kitap/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2l0YXBcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Kitap/Delete.cshtml]
+[C:/Users/Acer/Desktop/KutuphaneProje/Views/Kitap/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2l0YXBcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Kitap/Edit.cshtml]
+[C:/Users/Acer/Desktop/KutuphaneProje/Views/Kitap/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2l0YXBcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Kitap/Index.cshtml]
+[C:/Users/Acer/Desktop/KutuphaneProje/Views/Kitap/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2l0YXBcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Ogrenci/Ekle.cshtml]
+[C:/Users/Acer/Desktop/KutuphaneProje/Views/Ogrenci/Ekle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxFa2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Ogrenci/Guncelle.cshtml]
+[C:/Users/Acer/Desktop/KutuphaneProje/Views/Ogrenci/Guncelle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxHdW5jZWxsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Ogrenci/Index.cshtml]
+[C:/Users/Acer/Desktop/KutuphaneProje/Views/Ogrenci/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Ogrenci/Sil.cshtml]
+[C:/Users/Acer/Desktop/KutuphaneProje/Views/Ogrenci/Sil.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxTaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Shared/Error.cshtml]
+[C:/Users/Acer/Desktop/KutuphaneProje/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Acer/Desktop/KutuphaneProje/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Sinif/Ekle.cshtml]
+[C:/Users/Acer/Desktop/KutuphaneProje/Views/Sinif/Ekle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaWZcRWtsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Sinif/Guncelle.cshtml]
+[C:/Users/Acer/Desktop/KutuphaneProje/Views/Sinif/Guncelle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaWZcR3VuY2VsbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Sinif/Index.cshtml]
+[C:/Users/Acer/Desktop/KutuphaneProje/Views/Sinif/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaWZcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan566/Desktop/KutuphaneProje/Views/_ViewImports.cshtml]
+[C:/Users/Acer/Desktop/KutuphaneProje/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan566/Desktop/KutuphaneProje/Views/_ViewStart.cshtml]
+[C:/Users/Acer/Desktop/KutuphaneProje/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Shared/_Layout.cshtml]
+[C:/Users/Acer/Desktop/KutuphaneProje/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-1jrfp4dvkc
