@@ -17,69 +17,101 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Kutuphane
 build_property.RootNamespace = Kutuphane
-build_property.ProjectDir = /home/hasan566/Kutuphane/
+build_property.ProjectDir = C:\Users\hasan566\Desktop\KutuphaneProje\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/hasan566/Kutuphane
+build_property.MSBuildProjectDirectory = C:\Users\hasan566\Desktop\KutuphaneProje
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[/home/hasan566/Kutuphane/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/hasan566/Kutuphane/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/hasan566/Kutuphane/Views/Ogrenci/Ekle.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT2dyZW5jaS9Fa2xlLmNzaHRtbA==
+[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Kategori/Ekle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcRWtsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/hasan566/Kutuphane/Views/Ogrenci/Guncelle.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT2dyZW5jaS9HdW5jZWxsZS5jc2h0bWw=
+[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Kategori/Guncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcR3VuY2VsbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/hasan566/Kutuphane/Views/Ogrenci/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT2dyZW5jaS9JbmRleC5jc2h0bWw=
+[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Kategori/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/hasan566/Kutuphane/Views/Ogrenci/Sil.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT2dyZW5jaS9TaWwuY3NodG1s
+[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Kategori/Sil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcU2lsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/hasan566/Kutuphane/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Kitap/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2l0YXBcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/hasan566/Kutuphane/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Kitap/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2l0YXBcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/hasan566/Kutuphane/Views/Sinif/Ekle.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2luaWYvRWtsZS5jc2h0bWw=
+[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Kitap/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2l0YXBcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/hasan566/Kutuphane/Views/Sinif/Guncelle.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2luaWYvR3VuY2VsbGUuY3NodG1s
+[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Kitap/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2l0YXBcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/hasan566/Kutuphane/Views/Sinif/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2luaWYvSW5kZXguY3NodG1s
+[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Ogrenci/Ekle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxFa2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/hasan566/Kutuphane/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Ogrenci/Guncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxHdW5jZWxsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/hasan566/Kutuphane/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Ogrenci/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/hasan566/Kutuphane/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-y7oha5uxur
+[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Ogrenci/Sil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxTaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Sinif/Ekle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaWZcRWtsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Sinif/Guncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaWZcR3VuY2VsbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Sinif/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaWZcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hasan566/Desktop/KutuphaneProje/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hasan566/Desktop/KutuphaneProje/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hasan566/Desktop/KutuphaneProje/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-1jrfp4dvkc

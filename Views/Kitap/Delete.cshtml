@@ -1,0 +1,35 @@
+﻿@model Kutuphane.Models.Kitap
+
+@{
+    ViewData["Title"] = "Kitap Sil";
+}
+
+<h2>Kitap Sil</h2>
+
+<h4>Bu kitabı silmek istediğinize emin misiniz?</h4>
+<hr />
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">Kitap Adı</dt>
+        <dd class="col-sm-10">@Model.KitapAdi</dd>
+
+        <dt class="col-sm-2">Yazar Adı</dt>
+        <dd class="col-sm-10">@Model.YazarAdi</dd>
+
+        <dt class="col-sm-2">Basım Yılı</dt>
+        <dd class="col-sm-10">@Model.BasimYili</dd>
+
+        <dt class="col-sm-2">Yayınevi</dt>
+        <dd class="col-sm-10">@Model.YayinEvi</dd>
+
+        <dt class="col-sm-2">Kategori</dt>
+        <dd class="col-sm-10">@Model.Kategori?.KategoriAdi</dd>
+    </dl>
+
+    <form asp-action="DeleteConfirmed" method="post">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">Sil</button>
+        <a asp-action="Index" class="btn btn-secondary">İptal</a>
+    </form>
+</div>

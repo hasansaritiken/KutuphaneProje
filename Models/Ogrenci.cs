@@ -5,6 +5,6 @@ public class Ogrenci{
     public string? OgrenciAdi { get; set; }
     public string? OgrenciSoyadi { get; set; }
     public string? OkulNumarasi { get; set; }
-    public string? SinifId { get; set; }
+    public int? SinifId { get; set; }
     public Sinif? Sinif { get; set; }
 }

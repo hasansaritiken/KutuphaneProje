@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/home/hasan566/Kutuphane/Kutuphane.csproj": {}
+    "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\Kutuphane.csproj": {}
   },
   "projects": {
-    "/home/hasan566/Kutuphane/Kutuphane.csproj": {
+    "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\Kutuphane.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/hasan566/Kutuphane/Kutuphane.csproj",
+        "projectUniqueName": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\Kutuphane.csproj",
         "projectName": "Kutuphane",
-        "projectPath": "/home/hasan566/Kutuphane/Kutuphane.csproj",
-        "packagesPath": "/home/hasan566/.nuget/packages/",
-        "outputPath": "/home/hasan566/Kutuphane/obj/",
+        "projectPath": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\Kutuphane.csproj",
+        "packagesPath": "C:\\Users\\hasan566\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/hasan566/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\hasan566\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -84,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
