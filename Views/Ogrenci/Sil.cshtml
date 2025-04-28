@@ -3,8 +3,7 @@
 <h2>Öğrenci Sil</h2>
 <p>@Model.OgrenciAdi @Model.OgrenciSoyadi adlı öğrenciyi silmek istediğinize emin misiniz?</p>
 
-<form asp-action="SilOnayla" method="post" asp-controller="Ogrenci">
-    <input type="hidden" asp-for="Id" />
+<form asp-action="Sil" method="post" asp-route-id="@Model.Id" asp-controller="Ogrenci">
     <button type="submit" class="btn btn-danger">Sil</button>
     <a asp-action="Index" class="btn btn-secondary">İptal</a>
 </form>

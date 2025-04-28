@@ -661,3 +661,15 @@ C:\Users\hasan566\Desktop\KutuphaneProje\obj\Debug\net9.0\refint\Kutuphane.dll
 C:\Users\hasan566\Desktop\KutuphaneProje\obj\Debug\net9.0\Kutuphane.pdb
 C:\Users\hasan566\Desktop\KutuphaneProje\obj\Debug\net9.0\Kutuphane.genruntimeconfig.cache
 C:\Users\hasan566\Desktop\KutuphaneProje\obj\Debug\net9.0\ref\Kutuphane.dll
+C:\Users\hasan566\Desktop\KutuphaneProje\obj\Debug\net9.0\compressed\yeftllyjgv-3zpwalpuda.gz
+C:\Users\hasan566\Desktop\KutuphaneProje\obj\Debug\net9.0\compressed\lm4tftgujl-gjrdkc01zn.gz
+C:\Users\hasan566\Desktop\KutuphaneProje\obj\Debug\net9.0\compressed\qv0cpoesgd-nt7juh6h50.gz
+C:\Users\hasan566\Desktop\KutuphaneProje\obj\Debug\net9.0\compressed\k04gpyvsqg-l5kagb46um.gz
+C:\Users\hasan566\Desktop\KutuphaneProje\obj\Debug\net9.0\compressed\nf8xc4sbhr-a1v63x9wfv.gz
+C:\Users\hasan566\Desktop\KutuphaneProje\obj\Debug\net9.0\compressed\83h9ov0lcm-l2ewhp8w1q.gz
+C:\Users\hasan566\Desktop\KutuphaneProje\obj\Debug\net9.0\compressed\0toamy5ers-q8ls3kvgdx.gz
+C:\Users\hasan566\Desktop\KutuphaneProje\obj\Debug\net9.0\compressed\3wp0y0p181-s5dfy8cuvy.gz
+C:\Users\hasan566\Desktop\KutuphaneProje\obj\Debug\net9.0\compressed\kn8pachn9i-ddky5r22iq.gz
+C:\Users\hasan566\Desktop\KutuphaneProje\obj\Debug\net9.0\compressed\y9i34ksdyg-sc6ou6m5p0.gz
+C:\Users\hasan566\Desktop\KutuphaneProje\obj\Debug\net9.0\compressed\2pvkpw6agk-3xv8oehij3.gz
+C:\Users\hasan566\Desktop\KutuphaneProje\obj\Debug\net9.0\compressed\arzqzxt34z-i4aux91v7n.gz

@@ -1,0 +1,40 @@
+@model IEnumerable<Kutuphane.Models.KitapOdunc>
+
+@{
+    ViewData["Title"] = "Ödünç Kitap Listesi";
+}
+
+<h1>Ödünç Kitap Listesi</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Yeni Ödünç Verme</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Kitap Adı</th>
+            <th>Öğrenci</th>
+            <th>Ödünç Alma Tarihi</th>
+            <th>İade Tarihi</th>
+            <th>Durum</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>@item.Kitap?.KitapAdi</td>
+            <td>@item.Ogrenci?.OgrenciAdi @item.Ogrenci?.OgrenciSoyadi</td>
+            <td>@item.OduncAlmaTarihi.ToShortDateString()</td>
+            <td>@(item.IadeTarihi?.ToShortDateString() ?? "-")</td>
+            <td>@(item.IadeEdildi ? "İade Edildi" : "Ödünç Verildi")</td>
+            <td>
+                @if (!item.IadeEdildi)
+                {
+                    <a asp-action="Iade" asp-route-id="@item.Id" class="btn btn-success">İade Al</a>
+                }
+            </td>
+        </tr>
+}
+    </tbody>
+</table> 

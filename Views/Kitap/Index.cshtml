@@ -33,6 +33,7 @@
             <td>
                 <a asp-action="Edit" asp-route-id="@kitap.Id" class="btn btn-sm btn-warning">Güncelle</a>
                 <a asp-action="Delete" asp-route-id="@kitap.Id" class="btn btn-sm btn-danger">Sil</a>
+                <a asp-controller="KitapOdunc" asp-action="Create" asp-route-kitapId="@kitap.Id" class="btn btn-sm btn-success">Bu Kitabı Ödünç Ver</a>
             </td>
         </tr>
 }

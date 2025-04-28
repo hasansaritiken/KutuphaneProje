@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IKW2JEos8B/6AKh8msSVYgZesIlQZe8PpiudDhWbYfk=",
+  "Hash": "VXRFfmUuxYtqPmVHoGAZJXesm/s+/yEX9CfUFej+/yo=",
   "Source": "Kutuphane",
   "BasePath": "_content/Kutuphane",
   "Mode": "Default",
@@ -80,6 +80,27 @@
       "OriginalItemSpec": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
+      "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\0toamy5ers-q8ls3kvgdx.gz",
+      "SourceId": "Kutuphane",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Kutuphane",
+      "RelativePath": "css/adminlte.rtl.min.css#[.{fingerprint=q8ls3kvgdx}]?.map.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.rtl.min.css.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "5wiaobb9l3",
+      "Integrity": "222lEwYbXRevh+FNwevPwvE7zR9YceCICeqtVeuEiIo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.rtl.min.css.map"
+    },
+    {
       "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\1bbxtuljdi-xtxxf3hu2r.gz",
       "SourceId": "Kutuphane",
       "SourceType": "Discovered",
@@ -99,6 +120,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\2pvkpw6agk-3xv8oehij3.gz",
+      "SourceId": "Kutuphane",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Kutuphane",
+      "RelativePath": "js/adminlte.min.js#[.{fingerprint=3xv8oehij3}]?.map.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\js\\adminlte.min.js.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "s912vgmmnv",
+      "Integrity": "EO5BXT12/Caj3IkQxD4RJSMxpzwPDZQ7PF0kJ8hx2wE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\js\\adminlte.min.js.map"
     },
     {
       "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\2ym3relx43-ee0r1s7dh0.gz",
@@ -204,6 +246,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\3wp0y0p181-s5dfy8cuvy.gz",
+      "SourceId": "Kutuphane",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Kutuphane",
+      "RelativePath": "js/adminlte#[.{fingerprint=s5dfy8cuvy}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\js\\adminlte.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "7jxcamr41z",
+      "Integrity": "PbnPkWiptizHDCV5ahRfADd/kb0qLpLIOrtWvR5uoZI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\js\\adminlte.js"
     },
     {
       "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\53b5ecajbc-keugtjm085.gz",
@@ -353,6 +416,27 @@
       "OriginalItemSpec": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
+      "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\83h9ov0lcm-l2ewhp8w1q.gz",
+      "SourceId": "Kutuphane",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Kutuphane",
+      "RelativePath": "css/adminlte.rtl.min#[.{fingerprint=l2ewhp8w1q}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.rtl.min.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "enhpusvq67",
+      "Integrity": "mmOUqE26hVMxbfnhloFchvlMCTFUpSeWm9aMOrwcYAM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.rtl.min.css"
+    },
+    {
       "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\8num94s907-qesaa3a1fm.gz",
       "SourceId": "Kutuphane",
       "SourceType": "Discovered",
@@ -477,6 +561,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\arzqzxt34z-i4aux91v7n.gz",
+      "SourceId": "Kutuphane",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Kutuphane",
+      "RelativePath": "css/adminlte#[.{fingerprint=i4aux91v7n}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "hypxep4206",
+      "Integrity": "V2z2sR141F+22Uim3CyHvmma4fAMat9wfuTAZxV6qxA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.css"
     },
     {
       "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\bbf7fvdgst-c63t5i9ira.gz",
@@ -794,6 +899,27 @@
       "OriginalItemSpec": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
+      "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\k04gpyvsqg-l5kagb46um.gz",
+      "SourceId": "Kutuphane",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Kutuphane",
+      "RelativePath": "css/adminlte.rtl#[.{fingerprint=l5kagb46um}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.rtl.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "zvxy282ba9",
+      "Integrity": "8d0V2P+6OBvVykQLyjVMTDx3XYF+X2Si2qNSddOx+9U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.rtl.css"
+    },
+    {
       "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\k3dxizr2bl-j5mq2jizvt.gz",
       "SourceId": "Kutuphane",
       "SourceType": "Discovered",
@@ -836,6 +962,27 @@
       "OriginalItemSpec": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+      "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\kn8pachn9i-ddky5r22iq.gz",
+      "SourceId": "Kutuphane",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Kutuphane",
+      "RelativePath": "js/adminlte.js#[.{fingerprint=ddky5r22iq}]?.map.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\js\\adminlte.js.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "vlpbf2qjw6",
+      "Integrity": "nZJzGfqJNUi/2ELHlq075ZnG4UQ4j16Mkutv4hMae94=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\js\\adminlte.js.map"
+    },
+    {
       "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\lk3xs436jm-22vffe00uq.gz",
       "SourceId": "Kutuphane",
       "SourceType": "Discovered",
@@ -855,6 +1002,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\lm4tftgujl-gjrdkc01zn.gz",
+      "SourceId": "Kutuphane",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Kutuphane",
+      "RelativePath": "css/adminlte.min#[.{fingerprint=gjrdkc01zn}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.min.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "735offr51f",
+      "Integrity": "PdXjUfy4DBPfz7qzdXeGzrgOiGupw9mFAtwN5rC+llU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.min.css"
     },
     {
       "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\m84b19fykg-gk0pw8i4co.gz",
@@ -897,6 +1065,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\nf8xc4sbhr-a1v63x9wfv.gz",
+      "SourceId": "Kutuphane",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Kutuphane",
+      "RelativePath": "css/adminlte.rtl.css#[.{fingerprint=a1v63x9wfv}]?.map.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.rtl.css.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "mdwtvpksfz",
+      "Integrity": "1vNegOKphjL+Mtw1IQmXP3m8WqIP9CnS1P1snpMBn0U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.rtl.css.map"
     },
     {
       "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\o87yi4p2rr-iovd86k7lj.gz",
@@ -1044,6 +1233,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\qv0cpoesgd-nt7juh6h50.gz",
+      "SourceId": "Kutuphane",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Kutuphane",
+      "RelativePath": "css/adminlte.min.css#[.{fingerprint=nt7juh6h50}]?.map.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.min.css.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "8nrs9sx8k6",
+      "Integrity": "DNzroPbTldXd92s5tVPr3bjkEpF3I/miN1rKxwH9Ods=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.min.css.map"
     },
     {
       "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\qv228km8tl-m9qm4tazc0.gz",
@@ -1319,6 +1529,48 @@
       "OriginalItemSpec": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
+      "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\y9i34ksdyg-sc6ou6m5p0.gz",
+      "SourceId": "Kutuphane",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Kutuphane",
+      "RelativePath": "js/adminlte.min#[.{fingerprint=sc6ou6m5p0}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\js\\adminlte.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "rko29h05vj",
+      "Integrity": "67XPK5Ijjq58O2gxaeSKOsB5U9uXaAQDVGHk+iG2y4I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\js\\adminlte.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\yeftllyjgv-3zpwalpuda.gz",
+      "SourceId": "Kutuphane",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Kutuphane",
+      "RelativePath": "css/adminlte.css#[.{fingerprint=3zpwalpuda}]?.map.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.css.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "0it8vbmex4",
+      "Integrity": "qE2WsBl1PT/39pnIBXRrTVc4LEOm8zFOLGQQEeZ27NM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.css.map"
+    },
+    {
       "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\z7oftgzw2g-y7v9cxd14o.gz",
       "SourceId": "Kutuphane",
       "SourceType": "Discovered",
@@ -1403,6 +1655,174 @@
       "OriginalItemSpec": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Kutuphane.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.css",
+      "SourceId": "Kutuphane",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\",
+      "BasePath": "_content/Kutuphane",
+      "RelativePath": "css/adminlte#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i4aux91v7n",
+      "Integrity": "PhwxZ6F2/tnFBOFbeFcYj3B16m4LrRPLm0GSCmmXnrU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\adminlte.css"
+    },
+    {
+      "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.css.map",
+      "SourceId": "Kutuphane",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\",
+      "BasePath": "_content/Kutuphane",
+      "RelativePath": "css/adminlte.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3zpwalpuda",
+      "Integrity": "geafVv0PhyjcAP5BJay0SpZqUrWGYzw8J9a3SqTldPo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\adminlte.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.min.css",
+      "SourceId": "Kutuphane",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\",
+      "BasePath": "_content/Kutuphane",
+      "RelativePath": "css/adminlte.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gjrdkc01zn",
+      "Integrity": "VK8oa80ned6o3m8wabYIfqc66Mvtgj64eZ4SWSZw/MA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\adminlte.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.min.css.map",
+      "SourceId": "Kutuphane",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\",
+      "BasePath": "_content/Kutuphane",
+      "RelativePath": "css/adminlte.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nt7juh6h50",
+      "Integrity": "pe+qH2eZiAiev96S1n0VzvYq33gtKOk4cI0M1wb+K+A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\adminlte.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.rtl.css",
+      "SourceId": "Kutuphane",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\",
+      "BasePath": "_content/Kutuphane",
+      "RelativePath": "css/adminlte.rtl#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l5kagb46um",
+      "Integrity": "iWDek7V+gA44H2TNaU/qn5BPn0iTGqzn0YHQgbbw9DE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\adminlte.rtl.css"
+    },
+    {
+      "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.rtl.css.map",
+      "SourceId": "Kutuphane",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\",
+      "BasePath": "_content/Kutuphane",
+      "RelativePath": "css/adminlte.rtl.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a1v63x9wfv",
+      "Integrity": "nnnLtiNfYYtFNT1h8oWxccJWsN+mveFArejYqMPNPBo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\adminlte.rtl.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.rtl.min.css",
+      "SourceId": "Kutuphane",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\",
+      "BasePath": "_content/Kutuphane",
+      "RelativePath": "css/adminlte.rtl.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l2ewhp8w1q",
+      "Integrity": "PUSeAwA7TSw6MztnELk0LRFJ5MduhjKocYsi/0q9G84=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\adminlte.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.rtl.min.css.map",
+      "SourceId": "Kutuphane",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\",
+      "BasePath": "_content/Kutuphane",
+      "RelativePath": "css/adminlte.rtl.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q8ls3kvgdx",
+      "Integrity": "iv2NjIGISJ1+wzh2894cKLrapmQLYjOy3oNkzdwOzMU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\adminlte.rtl.min.css.map"
+    },
+    {
       "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\site.css",
       "SourceId": "Kutuphane",
       "SourceType": "Discovered",
@@ -1443,6 +1863,90 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\js\\adminlte.js",
+      "SourceId": "Kutuphane",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\",
+      "BasePath": "_content/Kutuphane",
+      "RelativePath": "js/adminlte#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s5dfy8cuvy",
+      "Integrity": "YLI+apnq9uRgcOemuXUDBiFhXw/zfwKb8fDF8NF0GX4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\adminlte.js"
+    },
+    {
+      "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\js\\adminlte.js.map",
+      "SourceId": "Kutuphane",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\",
+      "BasePath": "_content/Kutuphane",
+      "RelativePath": "js/adminlte.js#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ddky5r22iq",
+      "Integrity": "X1ODiKw++BLGq+ORVDaLzkNvTjhoD5S+YoQBW5jAk5A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\adminlte.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\js\\adminlte.min.js",
+      "SourceId": "Kutuphane",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\",
+      "BasePath": "_content/Kutuphane",
+      "RelativePath": "js/adminlte.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sc6ou6m5p0",
+      "Integrity": "1HMyJ7pQg/n8mKkdGPrG2gSV6eAtPXFYSNTm9XqyE2I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\adminlte.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\js\\adminlte.min.js.map",
+      "SourceId": "Kutuphane",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\",
+      "BasePath": "_content/Kutuphane",
+      "RelativePath": "js/adminlte.min.js#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3xv8oehij3",
+      "Integrity": "aQxOagfCtHCJmLiDjzpPmiYfgipN04M+Zm5WejfQ93w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\adminlte.min.js.map"
     },
     {
       "Identity": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\js\\site.js",
@@ -2728,6 +3232,2390 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/adminlte.css",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\arzqzxt34z-i4aux91v7n.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000023004371"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43469"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V2z2sR141F+22Uim3CyHvmma4fAMat9wfuTAZxV6qxA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 11:05:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PhwxZ6F2/tnFBOFbeFcYj3B16m4LrRPLm0GSCmmXnrU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PhwxZ6F2/tnFBOFbeFcYj3B16m4LrRPLm0GSCmmXnrU="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.css",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "379200"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PhwxZ6F2/tnFBOFbeFcYj3B16m4LrRPLm0GSCmmXnrU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 11:05:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PhwxZ6F2/tnFBOFbeFcYj3B16m4LrRPLm0GSCmmXnrU="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.css.3zpwalpuda.map",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\yeftllyjgv-3zpwalpuda.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000007001869"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "142818"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qE2WsBl1PT/39pnIBXRrTVc4LEOm8zFOLGQQEeZ27NM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"geafVv0PhyjcAP5BJay0SpZqUrWGYzw8J9a3SqTldPo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3zpwalpuda"
+        },
+        {
+          "Name": "label",
+          "Value": "css/adminlte.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-geafVv0PhyjcAP5BJay0SpZqUrWGYzw8J9a3SqTldPo="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.css.3zpwalpuda.map",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "853463"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"geafVv0PhyjcAP5BJay0SpZqUrWGYzw8J9a3SqTldPo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3zpwalpuda"
+        },
+        {
+          "Name": "label",
+          "Value": "css/adminlte.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-geafVv0PhyjcAP5BJay0SpZqUrWGYzw8J9a3SqTldPo="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.css.3zpwalpuda.map.gz",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\yeftllyjgv-3zpwalpuda.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "142818"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qE2WsBl1PT/39pnIBXRrTVc4LEOm8zFOLGQQEeZ27NM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3zpwalpuda"
+        },
+        {
+          "Name": "label",
+          "Value": "css/adminlte.css.map.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qE2WsBl1PT/39pnIBXRrTVc4LEOm8zFOLGQQEeZ27NM="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.css.gz",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\arzqzxt34z-i4aux91v7n.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43469"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V2z2sR141F+22Uim3CyHvmma4fAMat9wfuTAZxV6qxA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 11:05:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V2z2sR141F+22Uim3CyHvmma4fAMat9wfuTAZxV6qxA="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.css.map",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\yeftllyjgv-3zpwalpuda.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000007001869"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "142818"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qE2WsBl1PT/39pnIBXRrTVc4LEOm8zFOLGQQEeZ27NM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"geafVv0PhyjcAP5BJay0SpZqUrWGYzw8J9a3SqTldPo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-geafVv0PhyjcAP5BJay0SpZqUrWGYzw8J9a3SqTldPo="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.css.map",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "853463"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"geafVv0PhyjcAP5BJay0SpZqUrWGYzw8J9a3SqTldPo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-geafVv0PhyjcAP5BJay0SpZqUrWGYzw8J9a3SqTldPo="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.css.map.gz",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\yeftllyjgv-3zpwalpuda.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "142818"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qE2WsBl1PT/39pnIBXRrTVc4LEOm8zFOLGQQEeZ27NM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qE2WsBl1PT/39pnIBXRrTVc4LEOm8zFOLGQQEeZ27NM="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.i4aux91v7n.css",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\arzqzxt34z-i4aux91v7n.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000023004371"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43469"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V2z2sR141F+22Uim3CyHvmma4fAMat9wfuTAZxV6qxA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 11:05:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PhwxZ6F2/tnFBOFbeFcYj3B16m4LrRPLm0GSCmmXnrU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i4aux91v7n"
+        },
+        {
+          "Name": "label",
+          "Value": "css/adminlte.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PhwxZ6F2/tnFBOFbeFcYj3B16m4LrRPLm0GSCmmXnrU="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.i4aux91v7n.css",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "379200"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PhwxZ6F2/tnFBOFbeFcYj3B16m4LrRPLm0GSCmmXnrU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 11:05:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i4aux91v7n"
+        },
+        {
+          "Name": "label",
+          "Value": "css/adminlte.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PhwxZ6F2/tnFBOFbeFcYj3B16m4LrRPLm0GSCmmXnrU="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.i4aux91v7n.css.gz",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\arzqzxt34z-i4aux91v7n.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43469"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V2z2sR141F+22Uim3CyHvmma4fAMat9wfuTAZxV6qxA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 11:05:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i4aux91v7n"
+        },
+        {
+          "Name": "label",
+          "Value": "css/adminlte.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-V2z2sR141F+22Uim3CyHvmma4fAMat9wfuTAZxV6qxA="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.min.css",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\lm4tftgujl-gjrdkc01zn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000024969412"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40048"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PdXjUfy4DBPfz7qzdXeGzrgOiGupw9mFAtwN5rC+llU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"VK8oa80ned6o3m8wabYIfqc66Mvtgj64eZ4SWSZw/MA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VK8oa80ned6o3m8wabYIfqc66Mvtgj64eZ4SWSZw/MA="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.min.css",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "297158"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VK8oa80ned6o3m8wabYIfqc66Mvtgj64eZ4SWSZw/MA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VK8oa80ned6o3m8wabYIfqc66Mvtgj64eZ4SWSZw/MA="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.min.css.gz",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\lm4tftgujl-gjrdkc01zn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40048"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PdXjUfy4DBPfz7qzdXeGzrgOiGupw9mFAtwN5rC+llU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PdXjUfy4DBPfz7qzdXeGzrgOiGupw9mFAtwN5rC+llU="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.min.css.map",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\qv0cpoesgd-nt7juh6h50.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000008625151"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "115939"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DNzroPbTldXd92s5tVPr3bjkEpF3I/miN1rKxwH9Ods=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"pe+qH2eZiAiev96S1n0VzvYq33gtKOk4cI0M1wb+K+A=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pe+qH2eZiAiev96S1n0VzvYq33gtKOk4cI0M1wb+K+A="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.min.css.map",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "751991"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pe+qH2eZiAiev96S1n0VzvYq33gtKOk4cI0M1wb+K+A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pe+qH2eZiAiev96S1n0VzvYq33gtKOk4cI0M1wb+K+A="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.min.css.map.gz",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\qv0cpoesgd-nt7juh6h50.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "115939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DNzroPbTldXd92s5tVPr3bjkEpF3I/miN1rKxwH9Ods=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DNzroPbTldXd92s5tVPr3bjkEpF3I/miN1rKxwH9Ods="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.min.css.nt7juh6h50.map",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\qv0cpoesgd-nt7juh6h50.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000008625151"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "115939"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DNzroPbTldXd92s5tVPr3bjkEpF3I/miN1rKxwH9Ods=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"pe+qH2eZiAiev96S1n0VzvYq33gtKOk4cI0M1wb+K+A=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nt7juh6h50"
+        },
+        {
+          "Name": "label",
+          "Value": "css/adminlte.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pe+qH2eZiAiev96S1n0VzvYq33gtKOk4cI0M1wb+K+A="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.min.css.nt7juh6h50.map",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "751991"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pe+qH2eZiAiev96S1n0VzvYq33gtKOk4cI0M1wb+K+A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nt7juh6h50"
+        },
+        {
+          "Name": "label",
+          "Value": "css/adminlte.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pe+qH2eZiAiev96S1n0VzvYq33gtKOk4cI0M1wb+K+A="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.min.css.nt7juh6h50.map.gz",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\qv0cpoesgd-nt7juh6h50.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "115939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DNzroPbTldXd92s5tVPr3bjkEpF3I/miN1rKxwH9Ods=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nt7juh6h50"
+        },
+        {
+          "Name": "label",
+          "Value": "css/adminlte.min.css.map.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DNzroPbTldXd92s5tVPr3bjkEpF3I/miN1rKxwH9Ods="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.min.gjrdkc01zn.css",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\lm4tftgujl-gjrdkc01zn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000024969412"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40048"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PdXjUfy4DBPfz7qzdXeGzrgOiGupw9mFAtwN5rC+llU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"VK8oa80ned6o3m8wabYIfqc66Mvtgj64eZ4SWSZw/MA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gjrdkc01zn"
+        },
+        {
+          "Name": "label",
+          "Value": "css/adminlte.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VK8oa80ned6o3m8wabYIfqc66Mvtgj64eZ4SWSZw/MA="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.min.gjrdkc01zn.css",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "297158"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VK8oa80ned6o3m8wabYIfqc66Mvtgj64eZ4SWSZw/MA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gjrdkc01zn"
+        },
+        {
+          "Name": "label",
+          "Value": "css/adminlte.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VK8oa80ned6o3m8wabYIfqc66Mvtgj64eZ4SWSZw/MA="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.min.gjrdkc01zn.css.gz",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\lm4tftgujl-gjrdkc01zn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40048"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PdXjUfy4DBPfz7qzdXeGzrgOiGupw9mFAtwN5rC+llU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gjrdkc01zn"
+        },
+        {
+          "Name": "label",
+          "Value": "css/adminlte.min.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PdXjUfy4DBPfz7qzdXeGzrgOiGupw9mFAtwN5rC+llU="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.rtl.css",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\k04gpyvsqg-l5kagb46um.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000023242301"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43024"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8d0V2P+6OBvVykQLyjVMTDx3XYF+X2Si2qNSddOx+9U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"iWDek7V+gA44H2TNaU/qn5BPn0iTGqzn0YHQgbbw9DE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iWDek7V+gA44H2TNaU/qn5BPn0iTGqzn0YHQgbbw9DE="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.rtl.css",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.rtl.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iWDek7V+gA44H2TNaU/qn5BPn0iTGqzn0YHQgbbw9DE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iWDek7V+gA44H2TNaU/qn5BPn0iTGqzn0YHQgbbw9DE="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.rtl.css.a1v63x9wfv.map",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\nf8xc4sbhr-a1v63x9wfv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000007004714"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "142760"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1vNegOKphjL+Mtw1IQmXP3m8WqIP9CnS1P1snpMBn0U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"nnnLtiNfYYtFNT1h8oWxccJWsN+mveFArejYqMPNPBo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a1v63x9wfv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/adminlte.rtl.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nnnLtiNfYYtFNT1h8oWxccJWsN+mveFArejYqMPNPBo="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.rtl.css.a1v63x9wfv.map",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.rtl.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "853328"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nnnLtiNfYYtFNT1h8oWxccJWsN+mveFArejYqMPNPBo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a1v63x9wfv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/adminlte.rtl.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nnnLtiNfYYtFNT1h8oWxccJWsN+mveFArejYqMPNPBo="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.rtl.css.a1v63x9wfv.map.gz",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\nf8xc4sbhr-a1v63x9wfv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "142760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1vNegOKphjL+Mtw1IQmXP3m8WqIP9CnS1P1snpMBn0U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a1v63x9wfv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/adminlte.rtl.css.map.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1vNegOKphjL+Mtw1IQmXP3m8WqIP9CnS1P1snpMBn0U="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.rtl.css.gz",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\k04gpyvsqg-l5kagb46um.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43024"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8d0V2P+6OBvVykQLyjVMTDx3XYF+X2Si2qNSddOx+9U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8d0V2P+6OBvVykQLyjVMTDx3XYF+X2Si2qNSddOx+9U="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.rtl.css.map",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\nf8xc4sbhr-a1v63x9wfv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000007004714"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "142760"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1vNegOKphjL+Mtw1IQmXP3m8WqIP9CnS1P1snpMBn0U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"nnnLtiNfYYtFNT1h8oWxccJWsN+mveFArejYqMPNPBo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nnnLtiNfYYtFNT1h8oWxccJWsN+mveFArejYqMPNPBo="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.rtl.css.map",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.rtl.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "853328"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nnnLtiNfYYtFNT1h8oWxccJWsN+mveFArejYqMPNPBo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nnnLtiNfYYtFNT1h8oWxccJWsN+mveFArejYqMPNPBo="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.rtl.css.map.gz",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\nf8xc4sbhr-a1v63x9wfv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "142760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1vNegOKphjL+Mtw1IQmXP3m8WqIP9CnS1P1snpMBn0U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1vNegOKphjL+Mtw1IQmXP3m8WqIP9CnS1P1snpMBn0U="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.rtl.l5kagb46um.css",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\k04gpyvsqg-l5kagb46um.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000023242301"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43024"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8d0V2P+6OBvVykQLyjVMTDx3XYF+X2Si2qNSddOx+9U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"iWDek7V+gA44H2TNaU/qn5BPn0iTGqzn0YHQgbbw9DE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l5kagb46um"
+        },
+        {
+          "Name": "label",
+          "Value": "css/adminlte.rtl.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iWDek7V+gA44H2TNaU/qn5BPn0iTGqzn0YHQgbbw9DE="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.rtl.l5kagb46um.css",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.rtl.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iWDek7V+gA44H2TNaU/qn5BPn0iTGqzn0YHQgbbw9DE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l5kagb46um"
+        },
+        {
+          "Name": "label",
+          "Value": "css/adminlte.rtl.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iWDek7V+gA44H2TNaU/qn5BPn0iTGqzn0YHQgbbw9DE="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.rtl.l5kagb46um.css.gz",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\k04gpyvsqg-l5kagb46um.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43024"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8d0V2P+6OBvVykQLyjVMTDx3XYF+X2Si2qNSddOx+9U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l5kagb46um"
+        },
+        {
+          "Name": "label",
+          "Value": "css/adminlte.rtl.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8d0V2P+6OBvVykQLyjVMTDx3XYF+X2Si2qNSddOx+9U="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.rtl.min.css",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\83h9ov0lcm-l2ewhp8w1q.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000024951967"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40076"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mmOUqE26hVMxbfnhloFchvlMCTFUpSeWm9aMOrwcYAM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PUSeAwA7TSw6MztnELk0LRFJ5MduhjKocYsi/0q9G84=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PUSeAwA7TSw6MztnELk0LRFJ5MduhjKocYsi/0q9G84="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.rtl.min.css",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.rtl.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "297318"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PUSeAwA7TSw6MztnELk0LRFJ5MduhjKocYsi/0q9G84=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PUSeAwA7TSw6MztnELk0LRFJ5MduhjKocYsi/0q9G84="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.rtl.min.css.gz",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\83h9ov0lcm-l2ewhp8w1q.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40076"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mmOUqE26hVMxbfnhloFchvlMCTFUpSeWm9aMOrwcYAM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mmOUqE26hVMxbfnhloFchvlMCTFUpSeWm9aMOrwcYAM="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\0toamy5ers-q8ls3kvgdx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000006313131"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "158399"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"222lEwYbXRevh+FNwevPwvE7zR9YceCICeqtVeuEiIo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"iv2NjIGISJ1+wzh2894cKLrapmQLYjOy3oNkzdwOzMU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iv2NjIGISJ1+wzh2894cKLrapmQLYjOy3oNkzdwOzMU="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.rtl.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1115675"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iv2NjIGISJ1+wzh2894cKLrapmQLYjOy3oNkzdwOzMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iv2NjIGISJ1+wzh2894cKLrapmQLYjOy3oNkzdwOzMU="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.rtl.min.css.map.gz",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\0toamy5ers-q8ls3kvgdx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "158399"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"222lEwYbXRevh+FNwevPwvE7zR9YceCICeqtVeuEiIo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-222lEwYbXRevh+FNwevPwvE7zR9YceCICeqtVeuEiIo="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.rtl.min.css.q8ls3kvgdx.map",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\0toamy5ers-q8ls3kvgdx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000006313131"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "158399"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"222lEwYbXRevh+FNwevPwvE7zR9YceCICeqtVeuEiIo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"iv2NjIGISJ1+wzh2894cKLrapmQLYjOy3oNkzdwOzMU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q8ls3kvgdx"
+        },
+        {
+          "Name": "label",
+          "Value": "css/adminlte.rtl.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iv2NjIGISJ1+wzh2894cKLrapmQLYjOy3oNkzdwOzMU="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.rtl.min.css.q8ls3kvgdx.map",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.rtl.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1115675"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iv2NjIGISJ1+wzh2894cKLrapmQLYjOy3oNkzdwOzMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q8ls3kvgdx"
+        },
+        {
+          "Name": "label",
+          "Value": "css/adminlte.rtl.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iv2NjIGISJ1+wzh2894cKLrapmQLYjOy3oNkzdwOzMU="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.rtl.min.css.q8ls3kvgdx.map.gz",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\0toamy5ers-q8ls3kvgdx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "158399"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"222lEwYbXRevh+FNwevPwvE7zR9YceCICeqtVeuEiIo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q8ls3kvgdx"
+        },
+        {
+          "Name": "label",
+          "Value": "css/adminlte.rtl.min.css.map.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-222lEwYbXRevh+FNwevPwvE7zR9YceCICeqtVeuEiIo="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.rtl.min.l2ewhp8w1q.css",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\83h9ov0lcm-l2ewhp8w1q.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000024951967"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40076"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mmOUqE26hVMxbfnhloFchvlMCTFUpSeWm9aMOrwcYAM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PUSeAwA7TSw6MztnELk0LRFJ5MduhjKocYsi/0q9G84=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l2ewhp8w1q"
+        },
+        {
+          "Name": "label",
+          "Value": "css/adminlte.rtl.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PUSeAwA7TSw6MztnELk0LRFJ5MduhjKocYsi/0q9G84="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.rtl.min.l2ewhp8w1q.css",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.rtl.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "297318"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PUSeAwA7TSw6MztnELk0LRFJ5MduhjKocYsi/0q9G84=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l2ewhp8w1q"
+        },
+        {
+          "Name": "label",
+          "Value": "css/adminlte.rtl.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PUSeAwA7TSw6MztnELk0LRFJ5MduhjKocYsi/0q9G84="
+        }
+      ]
+    },
+    {
+      "Route": "css/adminlte.rtl.min.l2ewhp8w1q.css.gz",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\83h9ov0lcm-l2ewhp8w1q.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40076"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mmOUqE26hVMxbfnhloFchvlMCTFUpSeWm9aMOrwcYAM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l2ewhp8w1q"
+        },
+        {
+          "Name": "label",
+          "Value": "css/adminlte.rtl.min.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mmOUqE26hVMxbfnhloFchvlMCTFUpSeWm9aMOrwcYAM="
+        }
+      ]
+    },
+    {
       "Route": "css/site.b9sayid5wm.css",
       "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\c5dd2oh8c9-b9sayid5wm.gz",
       "Selectors": [
@@ -3320,6 +6208,1198 @@
         {
           "Name": "integrity",
           "Value": "sha256-wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0="
+        }
+      ]
+    },
+    {
+      "Route": "js/adminlte.js",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\3wp0y0p181-s5dfy8cuvy.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000224567707"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4452"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PbnPkWiptizHDCV5ahRfADd/kb0qLpLIOrtWvR5uoZI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"YLI+apnq9uRgcOemuXUDBiFhXw/zfwKb8fDF8NF0GX4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YLI+apnq9uRgcOemuXUDBiFhXw/zfwKb8fDF8NF0GX4="
+        }
+      ]
+    },
+    {
+      "Route": "js/adminlte.js",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\js\\adminlte.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29455"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YLI+apnq9uRgcOemuXUDBiFhXw/zfwKb8fDF8NF0GX4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YLI+apnq9uRgcOemuXUDBiFhXw/zfwKb8fDF8NF0GX4="
+        }
+      ]
+    },
+    {
+      "Route": "js/adminlte.js.ddky5r22iq.map",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\kn8pachn9i-ddky5r22iq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000130395097"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7668"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nZJzGfqJNUi/2ELHlq075ZnG4UQ4j16Mkutv4hMae94=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"X1ODiKw++BLGq+ORVDaLzkNvTjhoD5S+YoQBW5jAk5A=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ddky5r22iq"
+        },
+        {
+          "Name": "label",
+          "Value": "js/adminlte.js.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X1ODiKw++BLGq+ORVDaLzkNvTjhoD5S+YoQBW5jAk5A="
+        }
+      ]
+    },
+    {
+      "Route": "js/adminlte.js.ddky5r22iq.map",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\js\\adminlte.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46475"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X1ODiKw++BLGq+ORVDaLzkNvTjhoD5S+YoQBW5jAk5A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ddky5r22iq"
+        },
+        {
+          "Name": "label",
+          "Value": "js/adminlte.js.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X1ODiKw++BLGq+ORVDaLzkNvTjhoD5S+YoQBW5jAk5A="
+        }
+      ]
+    },
+    {
+      "Route": "js/adminlte.js.ddky5r22iq.map.gz",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\kn8pachn9i-ddky5r22iq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7668"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nZJzGfqJNUi/2ELHlq075ZnG4UQ4j16Mkutv4hMae94=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ddky5r22iq"
+        },
+        {
+          "Name": "label",
+          "Value": "js/adminlte.js.map.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nZJzGfqJNUi/2ELHlq075ZnG4UQ4j16Mkutv4hMae94="
+        }
+      ]
+    },
+    {
+      "Route": "js/adminlte.js.gz",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\3wp0y0p181-s5dfy8cuvy.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4452"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PbnPkWiptizHDCV5ahRfADd/kb0qLpLIOrtWvR5uoZI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PbnPkWiptizHDCV5ahRfADd/kb0qLpLIOrtWvR5uoZI="
+        }
+      ]
+    },
+    {
+      "Route": "js/adminlte.js.map",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\kn8pachn9i-ddky5r22iq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000130395097"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7668"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nZJzGfqJNUi/2ELHlq075ZnG4UQ4j16Mkutv4hMae94=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"X1ODiKw++BLGq+ORVDaLzkNvTjhoD5S+YoQBW5jAk5A=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X1ODiKw++BLGq+ORVDaLzkNvTjhoD5S+YoQBW5jAk5A="
+        }
+      ]
+    },
+    {
+      "Route": "js/adminlte.js.map",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\js\\adminlte.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46475"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X1ODiKw++BLGq+ORVDaLzkNvTjhoD5S+YoQBW5jAk5A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X1ODiKw++BLGq+ORVDaLzkNvTjhoD5S+YoQBW5jAk5A="
+        }
+      ]
+    },
+    {
+      "Route": "js/adminlte.js.map.gz",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\kn8pachn9i-ddky5r22iq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7668"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nZJzGfqJNUi/2ELHlq075ZnG4UQ4j16Mkutv4hMae94=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nZJzGfqJNUi/2ELHlq075ZnG4UQ4j16Mkutv4hMae94="
+        }
+      ]
+    },
+    {
+      "Route": "js/adminlte.min.js",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\y9i34ksdyg-sc6ou6m5p0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000350140056"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2855"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"67XPK5Ijjq58O2gxaeSKOsB5U9uXaAQDVGHk+iG2y4I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"1HMyJ7pQg/n8mKkdGPrG2gSV6eAtPXFYSNTm9XqyE2I=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1HMyJ7pQg/n8mKkdGPrG2gSV6eAtPXFYSNTm9XqyE2I="
+        }
+      ]
+    },
+    {
+      "Route": "js/adminlte.min.js",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\js\\adminlte.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11003"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1HMyJ7pQg/n8mKkdGPrG2gSV6eAtPXFYSNTm9XqyE2I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1HMyJ7pQg/n8mKkdGPrG2gSV6eAtPXFYSNTm9XqyE2I="
+        }
+      ]
+    },
+    {
+      "Route": "js/adminlte.min.js.3xv8oehij3.map",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\2pvkpw6agk-3xv8oehij3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000124517495"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8030"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EO5BXT12/Caj3IkQxD4RJSMxpzwPDZQ7PF0kJ8hx2wE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"aQxOagfCtHCJmLiDjzpPmiYfgipN04M+Zm5WejfQ93w=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3xv8oehij3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/adminlte.min.js.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aQxOagfCtHCJmLiDjzpPmiYfgipN04M+Zm5WejfQ93w="
+        }
+      ]
+    },
+    {
+      "Route": "js/adminlte.min.js.3xv8oehij3.map",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\js\\adminlte.min.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37736"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aQxOagfCtHCJmLiDjzpPmiYfgipN04M+Zm5WejfQ93w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3xv8oehij3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/adminlte.min.js.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aQxOagfCtHCJmLiDjzpPmiYfgipN04M+Zm5WejfQ93w="
+        }
+      ]
+    },
+    {
+      "Route": "js/adminlte.min.js.3xv8oehij3.map.gz",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\2pvkpw6agk-3xv8oehij3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8030"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EO5BXT12/Caj3IkQxD4RJSMxpzwPDZQ7PF0kJ8hx2wE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3xv8oehij3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/adminlte.min.js.map.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EO5BXT12/Caj3IkQxD4RJSMxpzwPDZQ7PF0kJ8hx2wE="
+        }
+      ]
+    },
+    {
+      "Route": "js/adminlte.min.js.gz",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\y9i34ksdyg-sc6ou6m5p0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2855"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"67XPK5Ijjq58O2gxaeSKOsB5U9uXaAQDVGHk+iG2y4I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-67XPK5Ijjq58O2gxaeSKOsB5U9uXaAQDVGHk+iG2y4I="
+        }
+      ]
+    },
+    {
+      "Route": "js/adminlte.min.js.map",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\2pvkpw6agk-3xv8oehij3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000124517495"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8030"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EO5BXT12/Caj3IkQxD4RJSMxpzwPDZQ7PF0kJ8hx2wE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"aQxOagfCtHCJmLiDjzpPmiYfgipN04M+Zm5WejfQ93w=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aQxOagfCtHCJmLiDjzpPmiYfgipN04M+Zm5WejfQ93w="
+        }
+      ]
+    },
+    {
+      "Route": "js/adminlte.min.js.map",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\js\\adminlte.min.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37736"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aQxOagfCtHCJmLiDjzpPmiYfgipN04M+Zm5WejfQ93w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aQxOagfCtHCJmLiDjzpPmiYfgipN04M+Zm5WejfQ93w="
+        }
+      ]
+    },
+    {
+      "Route": "js/adminlte.min.js.map.gz",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\2pvkpw6agk-3xv8oehij3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8030"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EO5BXT12/Caj3IkQxD4RJSMxpzwPDZQ7PF0kJ8hx2wE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EO5BXT12/Caj3IkQxD4RJSMxpzwPDZQ7PF0kJ8hx2wE="
+        }
+      ]
+    },
+    {
+      "Route": "js/adminlte.min.sc6ou6m5p0.js",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\y9i34ksdyg-sc6ou6m5p0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000350140056"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2855"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"67XPK5Ijjq58O2gxaeSKOsB5U9uXaAQDVGHk+iG2y4I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"1HMyJ7pQg/n8mKkdGPrG2gSV6eAtPXFYSNTm9XqyE2I=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sc6ou6m5p0"
+        },
+        {
+          "Name": "label",
+          "Value": "js/adminlte.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1HMyJ7pQg/n8mKkdGPrG2gSV6eAtPXFYSNTm9XqyE2I="
+        }
+      ]
+    },
+    {
+      "Route": "js/adminlte.min.sc6ou6m5p0.js",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\js\\adminlte.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11003"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1HMyJ7pQg/n8mKkdGPrG2gSV6eAtPXFYSNTm9XqyE2I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sc6ou6m5p0"
+        },
+        {
+          "Name": "label",
+          "Value": "js/adminlte.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1HMyJ7pQg/n8mKkdGPrG2gSV6eAtPXFYSNTm9XqyE2I="
+        }
+      ]
+    },
+    {
+      "Route": "js/adminlte.min.sc6ou6m5p0.js.gz",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\y9i34ksdyg-sc6ou6m5p0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2855"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"67XPK5Ijjq58O2gxaeSKOsB5U9uXaAQDVGHk+iG2y4I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sc6ou6m5p0"
+        },
+        {
+          "Name": "label",
+          "Value": "js/adminlte.min.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-67XPK5Ijjq58O2gxaeSKOsB5U9uXaAQDVGHk+iG2y4I="
+        }
+      ]
+    },
+    {
+      "Route": "js/adminlte.s5dfy8cuvy.js",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\3wp0y0p181-s5dfy8cuvy.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000224567707"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4452"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PbnPkWiptizHDCV5ahRfADd/kb0qLpLIOrtWvR5uoZI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"YLI+apnq9uRgcOemuXUDBiFhXw/zfwKb8fDF8NF0GX4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s5dfy8cuvy"
+        },
+        {
+          "Name": "label",
+          "Value": "js/adminlte.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YLI+apnq9uRgcOemuXUDBiFhXw/zfwKb8fDF8NF0GX4="
+        }
+      ]
+    },
+    {
+      "Route": "js/adminlte.s5dfy8cuvy.js",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\wwwroot\\js\\adminlte.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29455"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YLI+apnq9uRgcOemuXUDBiFhXw/zfwKb8fDF8NF0GX4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s5dfy8cuvy"
+        },
+        {
+          "Name": "label",
+          "Value": "js/adminlte.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YLI+apnq9uRgcOemuXUDBiFhXw/zfwKb8fDF8NF0GX4="
+        }
+      ]
+    },
+    {
+      "Route": "js/adminlte.s5dfy8cuvy.js.gz",
+      "AssetFile": "C:\\Users\\hasan566\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\3wp0y0p181-s5dfy8cuvy.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4452"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PbnPkWiptizHDCV5ahRfADd/kb0qLpLIOrtWvR5uoZI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s5dfy8cuvy"
+        },
+        {
+          "Name": "label",
+          "Value": "js/adminlte.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PbnPkWiptizHDCV5ahRfADd/kb0qLpLIOrtWvR5uoZI="
         }
       ]
     },

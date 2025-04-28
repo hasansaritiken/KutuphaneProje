@@ -1,0 +1,38 @@
+@model Kutuphane.Models.KitapOdunc
+
+@{
+    ViewData["Title"] = "Kitap İade";
+}
+
+<h1>Kitap İade</h1>
+
+<h3>Bu kitabı iade etmek istediğinizden emin misiniz?</h3>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Kitap Adı
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Kitap?.KitapAdi
+        </dd>
+        <dt class="col-sm-2">
+            Öğrenci
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Ogrenci?.OgrenciAdi @Model.Ogrenci?.OgrenciSoyadi
+        </dd>
+        <dt class="col-sm-2">
+            Ödünç Alma Tarihi
+        </dt>
+        <dd class="col-sm-10">
+            @Model.OduncAlmaTarihi.ToShortDateString()
+        </dd>
+    </dl>
+    
+    <form asp-action="Iade">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="İade Al" class="btn btn-success" />
+        <a asp-action="Index" class="btn btn-secondary">Listeye Dön</a>
+    </form>
+</div> 

@@ -1,0 +1,38 @@
+@model Kutuphane.Models.KitapOdunc
+
+@{
+    ViewData["Title"] = "Yeni Ödünç Verme";
+}
+
+<h1>Yeni Ödünç Verme</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="KitapId" class="control-label">Kitap</label>
+                <select asp-for="KitapId" class="form-control" asp-items="@(new SelectList(ViewBag.Kitaplar, "Id", "KitapAdi"))">
+                    <option value="">-- Kitap Seçin --</option>
+                </select>
+                <span asp-validation-for="KitapId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OgrenciId" class="control-label">Öğrenci</label>
+                <select asp-for="OgrenciId" class="form-control" asp-items="@(new SelectList(ViewBag.Ogrenciler, "Id", "OgrenciAdi"))">
+                    <option value="">-- Öğrenci Seçin --</option>
+                </select>
+                <span asp-validation-for="OgrenciId" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <input type="submit" value="Ödünç Ver" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Listeye Dön</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+} 
