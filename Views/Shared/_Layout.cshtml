@@ -1,96 +1,81 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@ViewData["Title"] - Kütüphane Yönetim Sistemi</title>
-    
-    <!-- Fonts -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@@fontsource/source-sans-3@5.0.12/index.css" />
-    
-    <!-- OverlayScrollbars -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/overlayscrollbars@2.10.1/styles/overlayscrollbars.min.css" />
-    
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <!-- AdminLTE -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/css/adminlte.min.css">
     <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
-    
-    <!-- AdminLTE CSS -->
-    <link rel="stylesheet" href="~/css/adminlte.css" asp-append-version="true" />
-    
-    <!-- ApexCharts -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/apexcharts@3.37.1/dist/apexcharts.css" />
-    
-    <!-- jsvectormap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jsvectormap@1.5.3/dist/css/jsvectormap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
-<body class="layout-fixed sidebar-expand-lg bg-body-tertiary">
-    <div class="app-wrapper">
-        <!-- Header -->
-        <nav class="app-header navbar navbar-expand bg-body">
-            <div class="container-fluid">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" data-lte-toggle="sidebar" href="#" role="button">
-                            <i class="bi bi-list"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item d-none d-md-block">
-                        <a href="/" class="nav-link">Ana Sayfa</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item dropdown user-menu">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
-                            <img src="https://ui-avatars.com/api/?name=Kullanici&background=0d6efd&color=fff&rounded=true&size=32" class="user-image rounded-circle shadow me-2" alt="User Image" style="width:32px;height:32px;object-fit:cover;" />
-                            <span class="d-none d-md-inline fw-bold">Kullanıcı</span>
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
-                            <li class="user-header text-bg-primary">
-                                <p>
-                                    Kütüphane Yönetim Sistemi
-                                </p>
-                            </li>
-                            <li class="user-footer">
-                                <a href="#" class="btn btn-default btn-flat">Profil</a>
-                                <a href="#" class="btn btn-default btn-flat float-end">Çıkış Yap</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+<body class="hold-transition sidebar-mini layout-fixed">
+    <div class="wrapper">
+        <!-- Navbar -->
+        <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+            <!-- Left navbar links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+                </li>
+            </ul>
+
+            <!-- Right navbar links -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+                        <i class="fas fa-expand-arrows-alt"></i>
+                    </a>
+                </li>
+            </ul>
         </nav>
 
-        <!-- Sidebar -->
-        <aside class="app-sidebar bg-body-secondary shadow" data-bs-theme="dark">
-            <div class="sidebar-brand">
-                <a href="/" class="brand-link">
-                    <img src="https://png.pngtree.com/png-vector/20240515/ourmid/pngtree-open-book-logo-png-image_12467719.png"
-                         alt="Kütüphane Logo"
-                         class="brand-image opacity-75 shadow" />
-                    <span class="brand-text fw-light">Kütüphane Yönetim Sistemi</span>
-                </a>
-            </div>
-            <div class="sidebar-wrapper">
+        <!-- Main Sidebar Container -->
+        <aside class="main-sidebar sidebar-dark-primary elevation-4">
+            <!-- Brand Logo -->
+            <a href="/" class="brand-link">
+                <i class="fas fa-book brand-image img-circle elevation-3" style="font-size:2rem; background:white; color:#007bff; padding:10px;"></i>
+                <span class="brand-text font-weight-light">Kütüphane</span>
+            </a>
+
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <!-- Sidebar Menu -->
                 <nav class="mt-2">
-                    <ul class="nav sidebar-menu flex-column" data-lte-toggle="treeview" role="menu" data-accordion="false">
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">
+                                <i class="nav-icon fas fa-home"></i>
+                                <p>Ana Sayfa</p>
+                            </a>
+                        </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="nav-icon bi bi-book"></i>
+                                <i class="nav-icon fas fa-book"></i>
                                 <p>
                                     Kitaplar
-                                    <i class="nav-arrow bi bi-chevron-right"></i>
+                                    <i class="right fas fa-angle-left"></i>
                                 </p>
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
                                     <a href="/Kitap/Index" class="nav-link">
-                                        <i class="nav-icon bi bi-circle"></i>
+                                        <i class="far fa-circle nav-icon"></i>
                                         <p>Kitap Listesi</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="/Kitap/Create" class="nav-link">
-                                        <i class="nav-icon bi bi-circle"></i>
+                                        <i class="far fa-circle nav-icon"></i>
                                         <p>Yeni Kitap Ekle</p>
                                     </a>
                                 </li>
@@ -98,91 +83,51 @@
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="nav-icon bi bi-people"></i>
-                                <p>
-                                    Öğrenciler
-                                    <i class="nav-arrow bi bi-chevron-right"></i>
-                                </p>
-                            </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="/Ogrenci/Index" class="nav-link">
-                                        <i class="nav-icon bi bi-circle"></i>
-                                        <p>Öğrenci Listesi</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="/Ogrenci/Ekle" class="nav-link">
-                                        <i class="nav-icon bi bi-circle"></i>
-                                        <p>Yeni Öğrenci Ekle</p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon bi bi-journal-text"></i>
+                                <i class="nav-icon fas fa-exchange-alt"></i>
                                 <p>
                                     Ödünç İşlemleri
-                                    <i class="nav-arrow bi bi-chevron-right"></i>
+                                    <i class="right fas fa-angle-left"></i>
                                 </p>
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
                                     <a href="/KitapOdunc/Index" class="nav-link">
-                                        <i class="nav-icon bi bi-circle"></i>
+                                        <i class="far fa-circle nav-icon"></i>
                                         <p>Ödünç Listesi</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="/KitapOdunc/Create" class="nav-link">
-                                        <i class="nav-icon bi bi-circle"></i>
+                                        <i class="far fa-circle nav-icon"></i>
                                         <p>Yeni Ödünç Ver</p>
                                     </a>
                                 </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon bi bi-tags"></i>
-                                <p>
-                                    Kategoriler
-                                    <i class="nav-arrow bi bi-chevron-right"></i>
-                                </p>
-                            </a>
-                            <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="/Kategori/Index" class="nav-link">
-                                        <i class="nav-icon bi bi-circle"></i>
-                                        <p>Kategori Listesi</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="/Kategori/Ekle" class="nav-link">
-                                        <i class="nav-icon bi bi-circle"></i>
-                                        <p>Yeni Kategori Ekle</p>
+                                    <a href="/KitapOdunc/Rapor" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Rapor Listesi</p>
                                     </a>
                                 </li>
                             </ul>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="nav-icon bi bi-building"></i>
+                                <i class="nav-icon fas fa-users"></i>
                                 <p>
                                     Sınıflar
-                                    <i class="nav-arrow bi bi-chevron-right"></i>
+                                    <i class="right fas fa-angle-left"></i>
                                 </p>
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
                                     <a href="/Sinif/Index" class="nav-link">
-                                        <i class="nav-icon bi bi-circle"></i>
+                                        <i class="far fa-circle nav-icon"></i>
                                         <p>Sınıf Listesi</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="/Sinif/Ekle" class="nav-link">
-                                        <i class="nav-icon bi bi-circle"></i>
+                                        <i class="far fa-circle nav-icon"></i>
                                         <p>Yeni Sınıf Ekle</p>
                                     </a>
                                 </li>
@@ -193,48 +138,42 @@
             </div>
         </aside>
 
-        <!-- Main Content -->
-        <main class="app-main">
-            <div class="app-content">
+        <!-- Content Wrapper -->
+        <div class="content-wrapper">
+            <!-- Content Header -->
+            <div class="content-header">
                 <div class="container-fluid">
-                    <div class="card">
-                        @RenderBody()
+                    <div class="row mb-2">
+                        <div class="col-sm-6">
+                            <h1 class="m-0">@ViewData["Title"]</h1>
+                        </div>
                     </div>
                 </div>
             </div>
-        </main>
+
+            <!-- Main content -->
+            <section class="content">
+                <div class="container-fluid">
+                    @RenderBody()
+                </div>
+            </section>
+        </div>
 
         <!-- Footer -->
-        <footer class="app-footer">
-            <div class="float-end d-none d-sm-inline">Kütüphane Yönetim Sistemi</div>
-            <strong>Copyright &copy; @DateTime.Now.Year</strong>
+        <footer class="main-footer">
+            <strong>Copyright &copy; @DateTime.Now.Year <a href="/">Kütüphane Yönetim Sistemi</a>.</strong>
+            Tüm hakları saklıdır.
         </footer>
     </div>
 
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/overlayscrollbars@2.10.1/browser/overlayscrollbars.browser.es6.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
-    <script src="~/js/adminlte.js" asp-append-version="true"></script>
-    <script src="https://cdn.jsdelivr.net/npm/apexcharts@3.37.1/dist/apexcharts.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jsvectormap@1.5.3/dist/js/jsvectormap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jsvectormap@1.5.3/dist/maps/world.js"></script>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const sidebarWrapper = document.querySelector('.sidebar-wrapper');
-            if (sidebarWrapper && typeof OverlayScrollbarsGlobal?.OverlayScrollbars !== 'undefined') {
-                OverlayScrollbarsGlobal.OverlayScrollbars(sidebarWrapper, {
-                    scrollbars: {
-                        theme: 'os-theme-light',
-                        autoHide: 'leave',
-                        clickScroll: true,
-                    },
-                });
-            }
-        });
-    </script>
-
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/js/adminlte.min.js"></script>
+    <!-- Custom Scripts -->
+    <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

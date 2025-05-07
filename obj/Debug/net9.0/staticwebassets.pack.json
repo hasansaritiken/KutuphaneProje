@@ -45,6 +45,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\wwwroot\\img",
+      "PackagePath": "staticwebassets"
+    },
+    {
       "Id": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\wwwroot\\js\\adminlte.js",
       "PackagePath": "staticwebassets\\js\\adminlte.js"
     },
@@ -303,6 +307,10 @@
     {
       "Id": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\wwwroot\\png-transparent-open-book-open-book-open-book.png",
+      "PackagePath": "staticwebassets\\png-transparent-open-book-open-book-open-book.png"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Kutuphane.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

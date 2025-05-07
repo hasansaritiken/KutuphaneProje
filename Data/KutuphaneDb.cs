@@ -11,5 +11,8 @@ namespace Kutuphane.Data{
         public DbSet<Kitap> Kitaplar { get; set; }
         public DbSet<Kategori> Kategoriler { get; set; }
         public DbSet<KitapOdunc> KitapOdunc { get; set; }
+
+        public DbSet<KitapOdunc> KitapOduncler { get; set; }
+
     }
 }

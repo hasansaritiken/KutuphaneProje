@@ -4,30 +4,53 @@
     ViewData["Title"] = "Yeni Ödünç Verme";
 }
 
-<h1>Yeni Ödünç Verme</h1>
-
-<hr />
-<div class="row">
-    <div class="col-md-4">
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">Yeni Ödünç Verme</h3>
+    </div>
+    <div class="card-body">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
             <div class="form-group">
                 <label asp-for="KitapId" class="control-label">Kitap</label>
-                <select asp-for="KitapId" class="form-control" asp-items="@(new SelectList(ViewBag.Kitaplar, "Id", "KitapAdi"))">
+                <select asp-for="KitapId" class="form-control select2" asp-items="@(new SelectList(ViewBag.Kitaplar, "Id", "KitapAdi"))">
                     <option value="">-- Kitap Seçin --</option>
                 </select>
                 <span asp-validation-for="KitapId" class="text-danger"></span>
             </div>
+
             <div class="form-group">
                 <label asp-for="OgrenciId" class="control-label">Öğrenci</label>
-                <select asp-for="OgrenciId" class="form-control" asp-items="@(new SelectList(ViewBag.Ogrenciler, "Id", "OgrenciAdi"))">
+                <select asp-for="OgrenciId" class="form-control select2" asp-items="@(new SelectList(ViewBag.Ogrenciler, "Id", "OgrenciAdi"))">
                     <option value="">-- Öğrenci Seçin --</option>
                 </select>
                 <span asp-validation-for="OgrenciId" class="text-danger"></span>
             </div>
+
+            <div class="form-group">
+                <label>Ödünç Alma Tarihi</label>
+                <input asp-for="OduncAlmaTarihi" class="form-control" value="@DateTime.Now.ToString("yyyy-MM-dd")" readonly />
+            </div>
+
+            <div class="form-group">
+                <label>Son Teslim Tarihi</label>
+                <input value="@DateTime.Now.AddDays(14).ToString("yyyy-MM-dd")" class="form-control" readonly />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="IadeTarihi" class="control-label">İade Tarihi</label>
+                <input asp-for="IadeTarihi" class="form-control" type="date" />
+                <span asp-validation-for="IadeTarihi" class="text-danger"></span>
+            </div>
+
             <div class="form-group mt-3">
-                <input type="submit" value="Ödünç Ver" class="btn btn-primary" />
-                <a asp-action="Index" class="btn btn-secondary">Listeye Dön</a>
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-save"></i> Ödünç Ver
+                </button>
+                <a asp-action="Index" class="btn btn-secondary">
+                    <i class="fas fa-arrow-left"></i> Listeye Dön
+                </a>
             </div>
         </form>
     </div>
@@ -35,4 +58,11 @@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-} 
+    <script>
+        $(document).ready(function() {
+            $('.select2').select2({
+                theme: 'bootstrap4'
+            });
+        });
+    </script>
+}

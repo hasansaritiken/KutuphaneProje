@@ -7,9 +7,11 @@ public class KitapOdunc
     public int OgrenciId { get; set; }
     public DateTime OduncAlmaTarihi { get; set; }
     public DateTime? IadeTarihi { get; set; }
-    public bool IadeEdildi { get; set; }
+    public bool IadeEdildi { get; set; } = false;
 
-    // Navigation properties
+    public DateTime VerilisTarihi { get; set; }
+    public DateTime SonTeslimTarihi { get; set; }
+
     public Kitap? Kitap { get; set; }
     public Ogrenci? Ogrenci { get; set; }
 } 

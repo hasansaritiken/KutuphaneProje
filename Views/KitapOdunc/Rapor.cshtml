@@ -1,0 +1,72 @@
+@model List<Kutuphane.Models.Rapor>
+
+@{
+    ViewData["Title"] = "Rapor Listesi";
+}
+
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">Ödünç Kitap Raporu</h3>
+        <div class="card-tools">
+            <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                <i class="fas fa-minus"></i>
+            </button>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>Kitap Adı</th>
+                        <th>Öğrenci</th>    
+                        <th>Veriliş Tarihi</th>
+                        <th>Son Teslim Tarihi</th>
+                        <th>Kalan Gün</th>
+                    </tr>
+                </thead>
+                <tbody>
+                @foreach (var item in Model)
+                {
+                    var kalanGun = (item.SonTeslimTarihi - DateTime.Now).Days;
+                    <tr class="@(kalanGun < 0 ? "table-danger" : kalanGun <= 3 ? "table-warning" : "")">
+                        <td>@item.KitapAdi</td>
+                        <td>@item.OgrenciAdi</td>
+                        <td>@item.VerilisTarihi.ToString("dd.MM.yyyy")</td>
+                        <td>@item.SonTeslimTarihi.ToString("dd.MM.yyyy")</td>
+                        <td>
+                            @if (kalanGun < 0)
+                            {
+                                <span class="badge badge-danger">Süre Dolmuş</span>
+                            }
+                            else if (kalanGun <= 3)
+                            {
+                                <span class="badge badge-warning">@kalanGun gün</span>
+                            }
+                            else
+                            {
+                                <span class="badge badge-success">@kalanGun gün</span>
+                            }
+                        </td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            $('.table').DataTable({
+                "language": {
+                    "url": "//cdn.datatables.net/plug-ins/1.10.24/i18n/Turkish.json"
+                },
+                "responsive": true,
+                "autoWidth": false
+            });
+        });
+    </script>
+}
+

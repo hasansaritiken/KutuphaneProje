@@ -29,29 +29,37 @@ namespace Kutuphane.Controllers
         {
             ViewBag.Kitaplar = _context.Kitaplar.ToList();
             ViewBag.Ogrenciler = _context.Ogrenciler.ToList();
-            
-            var model = new KitapOdunc();
+
+            var model = new KitapOdunc
+            {
+                OduncAlmaTarihi = DateTime.Now // Formda görünsün diye
+            };
+
             if (kitapId.HasValue)
             {
                 model.KitapId = kitapId.Value;
             }
-            
+
             return View(model);
         }
 
         // POST: KitapOdunc/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("KitapId,OgrenciId")] KitapOdunc kitapOdunc)
+        public async Task<IActionResult> Create([Bind("KitapId,OgrenciId,IadeTarihi")] KitapOdunc kitapOdunc)
         {
             if (ModelState.IsValid)
             {
                 kitapOdunc.OduncAlmaTarihi = DateTime.Now;
+                kitapOdunc.VerilisTarihi = DateTime.Now;
+                kitapOdunc.SonTeslimTarihi = DateTime.Now.AddDays(14); // 14 günlük ödünç verme süresi
                 kitapOdunc.IadeEdildi = false;
+
                 _context.Add(kitapOdunc);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
             ViewBag.Kitaplar = _context.Kitaplar.ToList();
             ViewBag.Ogrenciler = _context.Ogrenciler.ToList();
             return View(kitapOdunc);
@@ -91,9 +99,28 @@ namespace Kutuphane.Controllers
 
             kitapOdunc.IadeEdildi = true;
             kitapOdunc.IadeTarihi = DateTime.Now;
+
             _context.Update(kitapOdunc);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+
+        // GET: KitapOdunc/Rapor
+        public IActionResult Rapor()
+        {
+            var raporListesi = _context.KitapOdunc
+                .Include(k => k.Kitap)
+                .Include(k => k.Ogrenci)
+                .Select(k => new Rapor
+                {
+                    KitapAdi = k.Kitap.KitapAdi,
+                    OgrenciAdi = k.Ogrenci.OgrenciAdi + " " + k.Ogrenci.OgrenciSoyadi,
+                    VerilisTarihi = k.OduncAlmaTarihi,
+                    SonTeslimTarihi = k.SonTeslimTarihi,
+                })
+                .ToList();
+
+            return View(raporListesi);
+        }
     }
-} 
+}

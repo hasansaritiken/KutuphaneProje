@@ -149,7 +149,6 @@ C:\Users\Acer\Desktop\KutuphaneProje\obj\Debug\net9.0\compressed\k04gpyvsqg-l5ka
 C:\Users\Acer\Desktop\KutuphaneProje\obj\Debug\net9.0\compressed\nf8xc4sbhr-a1v63x9wfv.gz
 C:\Users\Acer\Desktop\KutuphaneProje\obj\Debug\net9.0\compressed\83h9ov0lcm-l2ewhp8w1q.gz
 C:\Users\Acer\Desktop\KutuphaneProje\obj\Debug\net9.0\compressed\0toamy5ers-q8ls3kvgdx.gz
-C:\Users\Acer\Desktop\KutuphaneProje\obj\Debug\net9.0\compressed\c5dd2oh8c9-b9sayid5wm.gz
 C:\Users\Acer\Desktop\KutuphaneProje\obj\Debug\net9.0\compressed\6lnjfobtbh-61n19gt1b8.gz
 C:\Users\Acer\Desktop\KutuphaneProje\obj\Debug\net9.0\compressed\3wp0y0p181-s5dfy8cuvy.gz
 C:\Users\Acer\Desktop\KutuphaneProje\obj\Debug\net9.0\compressed\kn8pachn9i-ddky5r22iq.gz
@@ -232,3 +231,4 @@ C:\Users\Acer\Desktop\KutuphaneProje\obj\Debug\net9.0\refint\Kutuphane.dll
 C:\Users\Acer\Desktop\KutuphaneProje\obj\Debug\net9.0\Kutuphane.pdb
 C:\Users\Acer\Desktop\KutuphaneProje\obj\Debug\net9.0\Kutuphane.genruntimeconfig.cache
 C:\Users\Acer\Desktop\KutuphaneProje\obj\Debug\net9.0\ref\Kutuphane.dll
+C:\Users\Acer\Desktop\KutuphaneProje\obj\Debug\net9.0\compressed\c5dd2oh8c9-zikvytedh9.gz
