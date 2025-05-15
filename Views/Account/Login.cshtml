@@ -1,0 +1,68 @@
+@{
+    ViewData["Title"] = "Giriş";
+    Layout = "_Layout";
+}
+
+<div class="login-page">
+    <div class="login-box">
+        <div class="card card-outline card-primary">
+            <div class="card-header text-center">
+                <h1 class="h1"><b>Kütüphane</b> Sistemi</h1>
+            </div>
+            <div class="card-body">
+                <p class="login-box-msg">Oturumunuzu başlatmak için giriş yapın</p>
+                @if (TempData["Error"] != null)
+                {
+                    <div class="alert alert-danger">
+                        @TempData["Error"]
+                    </div>
+                }
+                @if (TempData["Success"] != null)
+                {
+                    <div class="alert alert-success">
+                        @TempData["Success"]
+                    </div>
+                }
+                <form method="post" asp-action="Login" asp-controller="Account">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Kullanıcı Adı" id="username" name="username" required>
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <span class="fas fa-user"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="password" class="form-control" placeholder="Şifre" id="password" name="password" required>
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <span class="fas fa-lock"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary btn-block">Giriş Yap</button>
+                        </div>
+                    </div>
+                </form>
+                <p class="mb-0 mt-3 text-center">
+                    <a href="@Url.Action("Register", "Account")" class="text-center">Yeni üyelik oluştur</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.login-page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e9ecef;
+}
+.login-box {
+    width: 400px;
+}
+</style> 

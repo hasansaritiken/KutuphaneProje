@@ -1,97 +1,102 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Kutuphane.Data;
 using Kutuphane.Models;
+using Kutuphane.Data;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.Extensions.Logging;
 
 namespace Kutuphane.Controllers
 {
+    [Authorize]
     public class KitapOduncController : Controller
     {
         private readonly KutuphaneDbContext _context;
+        private readonly ILogger<KitapOduncController> _logger;
 
-        public KitapOduncController(KutuphaneDbContext context)
+        public KitapOduncController(KutuphaneDbContext context, ILogger<KitapOduncController> logger)
         {
             _context = context;
+            _logger = logger;
         }
 
-        // GET: KitapOdunc
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-            var oduncIslemleri = await _context.KitapOdunc
+            var oduncler = _context.KitapOduncler
                 .Include(k => k.Kitap)
-                .Include(o => o.Ogrenci)
-                .ToListAsync();
-            return View(oduncIslemleri);
+                .Include(k => k.Ogrenci)
+                .Where(k => !k.IadeEdildi)
+                .OrderByDescending(k => k.AlisTarihi)
+                .ToList();
+            return View(oduncler);
         }
 
-        // GET: KitapOdunc/Create
-        public IActionResult Create(int? kitapId)
+        public IActionResult Create()
         {
-            ViewBag.Kitaplar = _context.Kitaplar.ToList();
-            ViewBag.Ogrenciler = _context.Ogrenciler.ToList();
+            ViewBag.Kitaplar = _context.Kitaplar.Where(k => k.Durum == KitapDurumu.Musait).ToList();
+            ViewBag.Ogrenciler = _context.Ogrenciler.Where(o => !o.IsDeleted).ToList();
+            return View();
+        }
 
-            var model = new KitapOdunc
+        [HttpPost]
+        public IActionResult Create(int KitapId, int OgrenciId)
+        {
+            if (KitapId == 0)
             {
-                OduncAlmaTarihi = DateTime.Now // Formda görünsün diye
+                TempData["Error"] = "Lütfen bir kitap seçin.";
+                ViewBag.Kitaplar = _context.Kitaplar.Where(k => k.Durum == KitapDurumu.Musait).ToList();
+                ViewBag.Ogrenciler = _context.Ogrenciler.Where(o => !o.IsDeleted).ToList();
+                return View();
+            }
+
+            if (OgrenciId == 0)
+            {
+                TempData["Error"] = "Lütfen bir öğrenci seçin.";
+                ViewBag.Kitaplar = _context.Kitaplar.Where(k => k.Durum == KitapDurumu.Musait).ToList();
+                ViewBag.Ogrenciler = _context.Ogrenciler.Where(o => !o.IsDeleted).ToList();
+                return View();
+            }
+
+            var kitap = _context.Kitaplar.Find(KitapId);
+            if (kitap == null || kitap.Durum != KitapDurumu.Musait)
+            {
+                TempData["Error"] = "Seçilen kitap ödünç verilemez durumda.";
+                ViewBag.Kitaplar = _context.Kitaplar.Where(k => k.Durum == KitapDurumu.Musait).ToList();
+                ViewBag.Ogrenciler = _context.Ogrenciler.Where(o => !o.IsDeleted).ToList();
+                return View();
+            }
+
+            var ogrenci = _context.Ogrenciler.Find(OgrenciId);
+            if (ogrenci == null || ogrenci.IsDeleted)
+            {
+                TempData["Error"] = "Seçilen öğrenci bulunamadı.";
+                ViewBag.Kitaplar = _context.Kitaplar.Where(k => k.Durum == KitapDurumu.Musait).ToList();
+                ViewBag.Ogrenciler = _context.Ogrenciler.Where(o => !o.IsDeleted).ToList();
+                return View();
+            }
+
+            var kitapOdunc = new KitapOdunc
+            {
+                KitapId = KitapId,
+                OgrenciId = OgrenciId,
+                AlisTarihi = DateTime.Now,
+                SonTeslimTarihi = DateTime.Now.AddDays(30),
+                IadeEdildi = false
             };
 
-            if (kitapId.HasValue)
-            {
-                model.KitapId = kitapId.Value;
-            }
+            _context.KitapOduncler.Add(kitapOdunc);
+            kitap.Durum = KitapDurumu.OduncVerildi;
+            _context.SaveChanges();
 
-            return View(model);
+            return RedirectToAction(nameof(Index));
         }
 
-        // POST: KitapOdunc/Create
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("KitapId,OgrenciId,IadeTarihi")] KitapOdunc kitapOdunc)
+        public IActionResult IadeEt(int id)
         {
-            if (ModelState.IsValid)
-            {
-                kitapOdunc.OduncAlmaTarihi = DateTime.Now;
-                kitapOdunc.VerilisTarihi = DateTime.Now;
-                kitapOdunc.SonTeslimTarihi = DateTime.Now.AddDays(14); // 14 günlük ödünç verme süresi
-                kitapOdunc.IadeEdildi = false;
-
-                _context.Add(kitapOdunc);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-
-            ViewBag.Kitaplar = _context.Kitaplar.ToList();
-            ViewBag.Ogrenciler = _context.Ogrenciler.ToList();
-            return View(kitapOdunc);
-        }
-
-        // GET: KitapOdunc/Iade/5
-        public async Task<IActionResult> Iade(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var kitapOdunc = await _context.KitapOdunc
+            var kitapOdunc = _context.KitapOduncler
                 .Include(k => k.Kitap)
-                .Include(o => o.Ogrenci)
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefault(k => k.Id == id && !k.IadeEdildi);
 
-            if (kitapOdunc == null)
-            {
-                return NotFound();
-            }
-
-            return View(kitapOdunc);
-        }
-
-        // POST: KitapOdunc/Iade/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Iade(int id)
-        {
-            var kitapOdunc = await _context.KitapOdunc.FindAsync(id);
             if (kitapOdunc == null)
             {
                 return NotFound();
@@ -99,28 +104,35 @@ namespace Kutuphane.Controllers
 
             kitapOdunc.IadeEdildi = true;
             kitapOdunc.IadeTarihi = DateTime.Now;
+            
+            if (kitapOdunc.Kitap != null)
+            {
+                kitapOdunc.Kitap.Durum = KitapDurumu.Musait;
+            }
 
-            _context.Update(kitapOdunc);
-            await _context.SaveChangesAsync();
+            _context.SaveChanges();
             return RedirectToAction(nameof(Index));
         }
 
-        // GET: KitapOdunc/Rapor
         public IActionResult Rapor()
         {
-            var raporListesi = _context.KitapOdunc
+            var oduncler = _context.KitapOduncler
                 .Include(k => k.Kitap)
                 .Include(k => k.Ogrenci)
-                .Select(k => new Rapor
-                {
-                    KitapAdi = k.Kitap.KitapAdi,
-                    OgrenciAdi = k.Ogrenci.OgrenciAdi + " " + k.Ogrenci.OgrenciSoyadi,
-                    VerilisTarihi = k.OduncAlmaTarihi,
-                    SonTeslimTarihi = k.SonTeslimTarihi,
-                })
+                .OrderByDescending(k => k.AlisTarihi)
                 .ToList();
+            return View(oduncler);
+        }
 
-            return View(raporListesi);
+        public IActionResult GecikenKitaplar()
+        {
+            var gecikenliler = _context.KitapOduncler
+                .Include(k => k.Kitap)
+                .Include(k => k.Ogrenci)
+                .Where(k => !k.IadeEdildi && k.SonTeslimTarihi < DateTime.Now)
+                .OrderBy(k => k.SonTeslimTarihi)
+                .ToList();
+            return View("Rapor", gecikenliler);
         }
     }
 }

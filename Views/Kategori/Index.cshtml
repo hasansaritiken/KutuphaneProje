@@ -1,34 +1,71 @@
-﻿@model IEnumerable<Kategori>
+﻿@model IEnumerable<Kutuphane.Models.Kategori>
 
 @{
     ViewData["Title"] = "Kategoriler";
 }
-<a asp-action="Ekle" class="btn btn-success">Yeni Kategori Ekle</a>
 
-<h1>Kategori</h1>
-
-<table class="table">
-    <thead>
-        <tr>
-            <th>Id</th>
-            <th>Kategori Adı</th>
-            <th>Açıklama</th>
-            <th>İşlemler</th>
-            
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var Kategori in Model)
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">Kategori Listesi</h3>
+        <div class="card-tools">
+            <a href="@Url.Action("Ekle")" class="btn btn-primary btn-sm">
+                <i class="fas fa-plus"></i> Yeni Kategori
+            </a>
+        </div>
+    </div>
+    <div class="card-body">
+        @if (TempData["Error"] != null)
         {
-            <tr>
-                <td>@Kategori.Id</td>
-                <td>@Kategori.KategoriAdi</td>
-                <td>@Kategori.Aciklama</td>
-                <td>
-                    <a asp-action="Guncelle" asp-route-id="@Kategori.Id" class="btn btn-primary">Düzenle</a>
-                    <a asp-action="Sil" asp-route-id="@Kategori.Id" class="btn btn-danger">Sil</a>
-                </td>
-            </tr>
+            <div class="alert alert-danger">
+                @TempData["Error"]
+            </div>
         }
-    </tbody>
-</table>
+        <table id="kategoriTable" class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Kategori Adı</th>
+                    <th>Açıklama</th>
+                    <th>Kitap Sayısı</th>
+                    <th>İşlemler</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.KategoriAdi</td>
+                        <td>@item.Aciklama</td>
+                        <td>@(item.Kitaplar?.Count ?? 0)</td>
+                        <td>
+                            <a asp-action="Guncelle" asp-route-id="@item.Id" class="btn btn-warning btn-sm">
+                                <i class="fas fa-edit"></i> Düzenle
+                            </a>
+                            <a asp-action="Sil" asp-route-id="@item.Id" class="btn btn-danger btn-sm">
+                                <i class="fas fa-trash"></i> Sil
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#kategoriTable').DataTable({
+                "paging": true,
+                "lengthChange": true,
+                "searching": true,
+                "ordering": true,
+                "info": true,
+                "autoWidth": false,
+                "responsive": true,
+                "language": {
+                    "url": "//cdn.datatables.net/plug-ins/1.10.24/i18n/Turkish.json"
+                }
+            });
+        });
+    </script>
+}

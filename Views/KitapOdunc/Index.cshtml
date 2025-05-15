@@ -1,40 +1,83 @@
 @model IEnumerable<Kutuphane.Models.KitapOdunc>
 
 @{
-    ViewData["Title"] = "Ödünç Kitap Listesi";
+    ViewData["Title"] = "Ödünç Kitaplar";
 }
 
-<h1>Ödünç Kitap Listesi</h1>
-
-<p>
-    <a asp-action="Create" class="btn btn-primary">Yeni Ödünç Verme</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>Kitap Adı</th>
-            <th>Öğrenci</th>
-            <th>Ödünç Alma Tarihi</th>
-            <th>İade Tarihi</th>
-            <th>Durum</th>
-            <th>İşlemler</th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>@item.Kitap?.KitapAdi</td>
-            <td>@item.Ogrenci?.OgrenciAdi @item.Ogrenci?.OgrenciSoyadi</td>
-            <td>@item.OduncAlmaTarihi.ToShortDateString()</td>
-            <td>@(item.IadeTarihi?.ToShortDateString() ?? "-")</td>
-            <td>@(item.IadeEdildi ? "İade Edildi" : "Ödünç Verildi")</td>
-            <td>
-                @if (!item.IadeEdildi)
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">Ödünç Kitaplar</h3>
+        <div class="card-tools">
+            <a href="@Url.Action("Create")" class="btn btn-primary btn-sm">
+                <i class="fas fa-plus"></i> Yeni Ödünç Ver
+            </a>
+            <a href="@Url.Action("GecikenKitaplar")" class="btn btn-danger btn-sm">
+                <i class="fas fa-clock"></i> Geciken Kitaplar
+            </a>
+        </div>
+    </div>
+    <div class="card-body">
+        <table id="kitapOduncTable" class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Kitap Adı</th>
+                    <th>Öğrenci Adı</th>
+                    <th>Alış Tarihi</th>
+                    <th>Son Teslim Tarihi</th>
+                    <th>Durum</th>
+                    <th>İşlemler</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
                 {
-                    <a asp-action="Iade" asp-route-id="@item.Id" class="btn btn-success">İade Al</a>
+                    <tr>
+                        <td>@(item.Kitap?.KitapAdi ?? "Kitap Silinmiş")</td>
+                        <td>@(item.Ogrenci != null ? $"{item.Ogrenci.OgrenciAdi} {item.Ogrenci.OgrenciSoyadi}" : "Öğrenci Silinmiş")</td>
+                        <td>@item.AlisTarihi.ToString("dd/MM/yyyy")</td>
+                        <td>@item.SonTeslimTarihi.ToString("dd/MM/yyyy")</td>
+                        <td>
+                            @{
+                                var gunFark = (item.SonTeslimTarihi - DateTime.Now).Days;
+                                if (gunFark < 0)
+                                {
+                                    <span class="badge badge-danger">@Math.Abs(gunFark) gün gecikmiş</span>
+                                }
+                                else
+                                {
+                                    <span class="badge badge-success">@gunFark gün kaldı</span>
+                                }
+                            }
+                        </td>
+                        <td>
+                            <form asp-action="IadeEt" asp-route-id="@item.Id" method="post" style="display: inline;">
+                                <button type="submit" class="btn btn-success btn-sm" onclick="return confirm('Kitabı iade almak istediğinize emin misiniz?')">
+                                    <i class="fas fa-check"></i> İade Al
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
                 }
-            </td>
-        </tr>
-}
-    </tbody>
-</table> 
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#kitapOduncTable').DataTable({
+                "paging": true,
+                "lengthChange": true,
+                "searching": true,
+                "ordering": true,
+                "info": true,
+                "autoWidth": false,
+                "responsive": true,
+                "language": {
+                    "url": "//cdn.datatables.net/plug-ins/1.10.24/i18n/Turkish.json"
+                }
+            });
+        });
+    </script>
+} 

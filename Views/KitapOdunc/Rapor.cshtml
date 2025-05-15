@@ -1,72 +1,168 @@
-@model List<Kutuphane.Models.Rapor>
+@model IEnumerable<Kutuphane.Models.KitapOdunc>
 
 @{
-    ViewData["Title"] = "Rapor Listesi";
+    ViewData["Title"] = "Ödünç Kitap Raporu";
 }
 
 <div class="card">
     <div class="card-header">
         <h3 class="card-title">Ödünç Kitap Raporu</h3>
         <div class="card-tools">
-            <button type="button" class="btn btn-tool" data-card-widget="collapse">
-                <i class="fas fa-minus"></i>
-            </button>
+            <a href="@Url.Action("GecikenKitaplar")" class="btn btn-danger btn-sm">
+                <i class="fas fa-clock"></i> Sadece Geciken Kitaplar
+            </a>
         </div>
     </div>
     <div class="card-body">
-        <div class="table-responsive">
-            <table class="table table-bordered table-striped table-hover">
-                <thead>
-                    <tr>
-                        <th>Kitap Adı</th>
-                        <th>Öğrenci</th>    
-                        <th>Veriliş Tarihi</th>
-                        <th>Son Teslim Tarihi</th>
-                        <th>Kalan Gün</th>
-                    </tr>
-                </thead>
-                <tbody>
+        <table id="kitapOduncTable" class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Kitap Adı</th>
+                    <th>Öğrenci Adı</th>
+                    <th>Alış Tarihi</th>
+                    <th>Son Teslim Tarihi</th>
+                    <th>İade Durumu</th>
+                    <th>İade Tarihi</th>
+                    <th>Gecikme Durumu</th>
+                </tr>
+            </thead>
+            <tbody>
                 @foreach (var item in Model)
                 {
-                    var kalanGun = (item.SonTeslimTarihi - DateTime.Now).Days;
-                    <tr class="@(kalanGun < 0 ? "table-danger" : kalanGun <= 3 ? "table-warning" : "")">
-                        <td>@item.KitapAdi</td>
-                        <td>@item.OgrenciAdi</td>
-                        <td>@item.VerilisTarihi.ToString("dd.MM.yyyy")</td>
-                        <td>@item.SonTeslimTarihi.ToString("dd.MM.yyyy")</td>
+                    <tr class="@(item.IadeEdildi ? "" : (item.GecikmeGunSayisi > 0 ? "table-danger" : ""))">
+                        <td>@(item.Kitap?.KitapAdi ?? "Kitap Silinmiş")</td>
+                        <td>@(item.Ogrenci != null ? $"{item.Ogrenci.OgrenciAdi} {item.Ogrenci.OgrenciSoyadi}" : "Öğrenci Silinmiş")</td>
+                        <td>@item.AlisTarihi.ToString("dd/MM/yyyy")</td>
+                        <td>@item.SonTeslimTarihi.ToString("dd/MM/yyyy")</td>
                         <td>
-                            @if (kalanGun < 0)
+                            @if (item.IadeEdildi)
                             {
-                                <span class="badge badge-danger">Süre Dolmuş</span>
-                            }
-                            else if (kalanGun <= 3)
-                            {
-                                <span class="badge badge-warning">@kalanGun gün</span>
+                                <span class="badge badge-success">İade Edildi</span>
                             }
                             else
                             {
-                                <span class="badge badge-success">@kalanGun gün</span>
+                                <span class="badge badge-warning">Teslim Edilmedi</span>
+                            }
+                        </td>
+                        <td>
+                            @(item.IadeTarihi?.ToString("dd/MM/yyyy") ?? "-")
+                        </td>
+                        <td>
+                            @if (item.IadeEdildi)
+                            {
+                                var gecikmeGun = (item.IadeTarihi.Value - item.SonTeslimTarihi).Days;
+                                if (gecikmeGun > 0)
+                                {
+                                    <span class="badge badge-danger">@gecikmeGun gün gecikmeli teslim</span>
+                                }
+                                else
+                                {
+                                    <span class="badge badge-success">Zamanında teslim</span>
+                                }
+                            }
+                            else
+                            {
+                                if (item.GecikmeGunSayisi > 0)
+                                {
+                                    <span class="badge badge-danger">@item.GecikmeGunSayisi gün gecikmiş</span>
+                                }
+                                else
+                                {
+                                    var kalanGun = (item.SonTeslimTarihi - DateTime.Now).Days;
+                                    <span class="badge badge-info">@kalanGun gün kaldı</span>
+                                }
                             }
                         </td>
                     </tr>
                 }
-                </tbody>
-            </table>
-        </div>
+            </tbody>
+        </table>
+    </div>
+    <div class="card-footer text-right">
+        <button type="button" class="btn btn-primary" onclick="window.print()">
+            <i class="fas fa-print"></i> Yazdır
+        </button>
     </div>
 </div>
 
 @section Scripts {
     <script>
-        $(document).ready(function() {
-            $('.table').DataTable({
+        $(document).ready(function () {
+            $('#kitapOduncTable').DataTable({
+                "paging": true,
+                "lengthChange": true,
+                "searching": true,
+                "ordering": true,
+                "info": true,
+                "autoWidth": false,
+                "responsive": true,
                 "language": {
                     "url": "//cdn.datatables.net/plug-ins/1.10.24/i18n/Turkish.json"
-                },
-                "responsive": true,
-                "autoWidth": false
+                }
             });
         });
     </script>
+
+    <style type="text/css" media="print">
+        
+        .main-header,
+        .main-sidebar,
+        .main-footer,
+        .card-tools,
+        .card-footer,
+        .dataTables_filter,
+        .dataTables_info,
+        .dataTables_paginate,
+        .dataTables_length {
+            display: none !important;
+        }
+
+        .content-wrapper {
+            margin-left: 0 !important;
+            padding: 0 !important;
+        }
+
+        .card {
+            box-shadow: none !important;
+            border: none !important;
+        }
+
+        .card-body {
+            padding: 0 !important;
+        }
+
+        table.dataTable {
+            width: 100% !important;
+        }
+
+        .badge {
+            border: 1px solid #000 !important;
+            padding: 2px 5px !important;
+        }
+
+        .badge-success {
+            background-color: #fff !important;
+            color: #000 !important;
+        }
+
+        .badge-warning {
+            background-color: #fff !important;
+            color: #000 !important;
+        }
+
+        .badge-danger {
+            background-color: #fff !important;
+            color: #000 !important;
+        }
+
+        .badge-info {
+            background-color: #fff !important;
+            color: #000 !important;
+        }
+
+        .table-danger {
+            background-color: #fff !important;
+        }
+    </style>
 }
 

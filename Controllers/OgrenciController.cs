@@ -20,8 +20,9 @@ namespace Kutuphane.Controllers
         public async Task<IActionResult> Index()
         {
             var ogrenciler = await _context.Ogrenciler
-            .Include(o => o.Sinif) 
-            .ToListAsync();
+                .Include(o => o.Sinif)
+                .Where(o => !o.IsDeleted)
+                .ToListAsync();
             return View(ogrenciler);
         }
 
@@ -49,7 +50,7 @@ namespace Kutuphane.Controllers
         [HttpGet]
         public async Task<IActionResult> Guncelle(int id)
         {
-            var ogrenci = await _context.Ogrenciler.FindAsync(id);
+            var ogrenci = await _context.Ogrenciler.FirstOrDefaultAsync(o => o.Id == id && !o.IsDeleted);
             if (ogrenci == null) return NotFound();
 
             ViewBag.Siniflar = new SelectList(await _context.Siniflar.ToListAsync(), "Id", "SinifAdi");
@@ -67,7 +68,15 @@ namespace Kutuphane.Controllers
                 return View(ogrenci);
             }
 
-            _context.Update(ogrenci);
+            var existingOgrenci = await _context.Ogrenciler.FindAsync(ogrenci.Id);
+            if (existingOgrenci == null || existingOgrenci.IsDeleted)
+                return NotFound();
+
+            existingOgrenci.OgrenciAdi = ogrenci.OgrenciAdi;
+            existingOgrenci.OgrenciSoyadi = ogrenci.OgrenciSoyadi;
+            existingOgrenci.OkulNumarasi = ogrenci.OkulNumarasi;
+            existingOgrenci.SinifId = ogrenci.SinifId;
+
             await _context.SaveChangesAsync();
             return RedirectToAction("Index");
         }
@@ -76,7 +85,7 @@ namespace Kutuphane.Controllers
         [HttpGet]
         public async Task<IActionResult> Sil(int id)
         {
-            var ogrenci = await _context.Ogrenciler.FindAsync(id);
+            var ogrenci = await _context.Ogrenciler.FirstOrDefaultAsync(o => o.Id == id && !o.IsDeleted);
             if (ogrenci == null) return NotFound();
 
             return View(ogrenci); 
@@ -86,15 +95,12 @@ namespace Kutuphane.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> SilOnayla(int id)
         {
-            var ogrenci = await _context.Ogrenciler.FindAsync(id);
+            var ogrenci = await _context.Ogrenciler.FirstOrDefaultAsync(o => o.Id == id && !o.IsDeleted);
             if (ogrenci == null) return NotFound();
 
-            _context.Ogrenciler.Remove(ogrenci); 
+            ogrenci.IsDeleted = true;
             await _context.SaveChangesAsync();
             return RedirectToAction("Index"); 
         }
     }
-
-   
-    
 }

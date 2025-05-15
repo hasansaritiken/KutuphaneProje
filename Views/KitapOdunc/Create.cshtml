@@ -1,4 +1,5 @@
 @model Kutuphane.Models.KitapOdunc
+@using Kutuphane.Models
 
 @{
     ViewData["Title"] = "Yeni Ödünç Verme";
@@ -9,58 +10,50 @@
         <h3 class="card-title">Yeni Ödünç Verme</h3>
     </div>
     <div class="card-body">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        @if (TempData["Error"] != null)
+        {
+            <div class="alert alert-danger">
+                @TempData["Error"]
+            </div>
+        }
+
+        <form method="post">
+            <div class="text-danger">@Html.ValidationSummary()</div>
 
             <div class="form-group">
-                <label asp-for="KitapId" class="control-label">Kitap</label>
-                <select asp-for="KitapId" class="form-control select2" asp-items="@(new SelectList(ViewBag.Kitaplar, "Id", "KitapAdi"))">
-                    <option value="">-- Kitap Seçin --</option>
+                <label>Kitap</label>
+                <select name="KitapId" class="form-control">
+                    <option value="">Kitap Seçin</option>
+                    @foreach (var kitap in ViewBag.Kitaplar)
+                    {
+                        <option value="@kitap.Id">@kitap.KitapAdi</option>
+                    }
                 </select>
-                <span asp-validation-for="KitapId" class="text-danger"></span>
             </div>
 
             <div class="form-group">
-                <label asp-for="OgrenciId" class="control-label">Öğrenci</label>
-                <select asp-for="OgrenciId" class="form-control select2" asp-items="@(new SelectList(ViewBag.Ogrenciler, "Id", "OgrenciAdi"))">
-                    <option value="">-- Öğrenci Seçin --</option>
+                <label>Öğrenci</label>
+                <select name="OgrenciId" class="form-control">
+                    <option value="">Öğrenci Seçin</option>
+                    @foreach (var ogrenci in ViewBag.Ogrenciler)
+                    {
+                        <option value="@ogrenci.Id">@ogrenci.OgrenciAdi @ogrenci.OgrenciSoyadi</option>
+                    }
                 </select>
-                <span asp-validation-for="OgrenciId" class="text-danger"></span>
             </div>
 
             <div class="form-group">
-                <label>Ödünç Alma Tarihi</label>
-                <input asp-for="OduncAlmaTarihi" class="form-control" value="@DateTime.Now.ToString("yyyy-MM-dd")" readonly />
-            </div>
-
-            <div class="form-group">
-                <label>Son Teslim Tarihi</label>
-                <input value="@DateTime.Now.AddDays(14).ToString("yyyy-MM-dd")" class="form-control" readonly />
-            </div>
-
-            <div class="form-group">
-                <label asp-for="IadeTarihi" class="control-label">İade Tarihi</label>
-                <input asp-for="IadeTarihi" class="form-control" type="date" />
-                <span asp-validation-for="IadeTarihi" class="text-danger"></span>
-            </div>
-
-            <div class="form-group mt-3">
-                <button type="submit" class="btn btn-primary">
-                    <i class="fas fa-save"></i> Ödünç Ver
-                </button>
-                <a asp-action="Index" class="btn btn-secondary">
-                    <i class="fas fa-arrow-left"></i> Listeye Dön
-                </a>
+                <button type="submit" class="btn btn-primary">Ödünç Ver</button>
+                <a asp-action="Index" class="btn btn-secondary">İptal</a>
             </div>
         </form>
     </div>
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
     <script>
         $(document).ready(function() {
-            $('.select2').select2({
+            $('select').select2({
                 theme: 'bootstrap4'
             });
         });

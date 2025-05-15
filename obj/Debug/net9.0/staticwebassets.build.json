@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "a6brHimPScPeFUaQa42aiykPegplfYlVpgiMnSABP7s=",
+  "Hash": "4T/1PmvjbWYDdPFAlWAQ22IuEtTMX+lF+9UyKLmkbLY=",
   "Source": "Kutuphane",
   "BasePath": "_content/Kutuphane",
   "Mode": "Default",
@@ -605,12 +605,12 @@
       "OriginalItemSpec": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\c5dd2oh8c9-zikvytedh9.gz",
+      "Identity": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\c5dd2oh8c9-peiggs9dfb.gz",
       "SourceId": "Kutuphane",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Kutuphane",
-      "RelativePath": "css/site#[.{fingerprint=zikvytedh9}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=peiggs9dfb}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -619,8 +619,8 @@
       "RelatedAsset": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "cowwbrikys",
-      "Integrity": "lDtxr1bcSCWiKZE+chlC3qZVa7JbgRwi7Pi8h+ZFG0o=",
+      "Fingerprint": "jglsfw42jr",
+      "Integrity": "XfXOqVhPXBGXf2JAkQc+T/oLMf6cOJ2ZHwWIUHAlap0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\wwwroot\\css\\site.css"
@@ -1655,6 +1655,27 @@
       "OriginalItemSpec": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Kutuphane.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\wwwroot\\book-logo.png",
+      "SourceId": "Kutuphane",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\wwwroot\\",
+      "BasePath": "_content/Kutuphane",
+      "RelativePath": "book-logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7vj9unqvyp",
+      "Integrity": "08ZzK20Ti4JXboaDyNbOtnLfvZdSVNoph8kZLik5NE4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\book-logo.png"
+    },
+    {
       "Identity": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\wwwroot\\css\\adminlte.css",
       "SourceId": "Kutuphane",
       "SourceType": "Discovered",
@@ -1837,8 +1858,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "zikvytedh9",
-      "Integrity": "q49Dz5HPsXJha/q5WohLCho7B37mY2vFJUQAfeZWswQ=",
+      "Fingerprint": "peiggs9dfb",
+      "Integrity": "MZEb9jzZMY5uLae5mXDRj6NVGWOMQ/qxBN2fdhRYtVA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1863,27 +1884,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\wwwroot\\img",
-      "SourceId": "Kutuphane",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\wwwroot\\",
-      "BasePath": "_content/Kutuphane",
-      "RelativePath": "img#[.{fingerprint}]?",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "5ipweew5fc",
-      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img"
     },
     {
       "Identity": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\wwwroot\\js\\adminlte.js",
@@ -3249,30 +3249,91 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
-    },
-    {
-      "Identity": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\wwwroot\\png-transparent-open-book-open-book-open-book.png",
-      "SourceId": "Kutuphane",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\wwwroot\\",
-      "BasePath": "_content/Kutuphane",
-      "RelativePath": "png-transparent-open-book-open-book-open-book#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "k3mw9v6f6v",
-      "Integrity": "ICOm3mcV4pSZMS1J6ZPSy92Eg/NpPVmMatTLxN7/Fu8=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\png-transparent-open-book-open-book-open-book.png"
     }
   ],
   "Endpoints": [
+    {
+      "Route": "book-logo.7vj9unqvyp.png",
+      "AssetFile": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\wwwroot\\book-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3615"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"08ZzK20Ti4JXboaDyNbOtnLfvZdSVNoph8kZLik5NE4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 12:01:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7vj9unqvyp"
+        },
+        {
+          "Name": "label",
+          "Value": "book-logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-08ZzK20Ti4JXboaDyNbOtnLfvZdSVNoph8kZLik5NE4="
+        }
+      ]
+    },
+    {
+      "Route": "book-logo.png",
+      "AssetFile": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\wwwroot\\book-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3615"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"08ZzK20Ti4JXboaDyNbOtnLfvZdSVNoph8kZLik5NE4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 12:01:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-08ZzK20Ti4JXboaDyNbOtnLfvZdSVNoph8kZLik5NE4="
+        }
+      ]
+    },
     {
       "Route": "css/adminlte.css",
       "AssetFile": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\arzqzxt34z-i4aux91v7n.gz",
@@ -5659,12 +5720,12 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\c5dd2oh8c9-zikvytedh9.gz",
+      "AssetFile": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\c5dd2oh8c9-peiggs9dfb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000964320154"
+          "Quality": "0.000946969697"
         }
       ],
       "ResponseHeaders": [
@@ -5674,15 +5735,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1036"
+          "Value": "1055"
         },
         {
           "Name": "ETag",
-          "Value": "\"lDtxr1bcSCWiKZE+chlC3qZVa7JbgRwi7Pi8h+ZFG0o=\""
+          "Value": "\"XfXOqVhPXBGXf2JAkQc+T/oLMf6cOJ2ZHwWIUHAlap0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 11:00:13 GMT"
+          "Value": "Wed, 07 May 2025 11:34:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5702,13 +5763,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"q49Dz5HPsXJha/q5WohLCho7B37mY2vFJUQAfeZWswQ=\""
+          "Value": "W/\"MZEb9jzZMY5uLae5mXDRj6NVGWOMQ/qxBN2fdhRYtVA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-q49Dz5HPsXJha/q5WohLCho7B37mY2vFJUQAfeZWswQ="
+          "Value": "sha256-MZEb9jzZMY5uLae5mXDRj6NVGWOMQ/qxBN2fdhRYtVA="
         }
       ]
     },
@@ -5723,7 +5784,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3073"
+          "Value": "3108"
         },
         {
           "Name": "Content-Type",
@@ -5731,11 +5792,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"q49Dz5HPsXJha/q5WohLCho7B37mY2vFJUQAfeZWswQ=\""
+          "Value": "\"MZEb9jzZMY5uLae5mXDRj6NVGWOMQ/qxBN2fdhRYtVA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 11:00:13 GMT"
+          "Value": "Wed, 07 May 2025 11:34:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5745,13 +5806,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-q49Dz5HPsXJha/q5WohLCho7B37mY2vFJUQAfeZWswQ="
+          "Value": "sha256-MZEb9jzZMY5uLae5mXDRj6NVGWOMQ/qxBN2fdhRYtVA="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\c5dd2oh8c9-zikvytedh9.gz",
+      "AssetFile": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\c5dd2oh8c9-peiggs9dfb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5760,7 +5821,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1036"
+          "Value": "1055"
         },
         {
           "Name": "Content-Type",
@@ -5768,11 +5829,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lDtxr1bcSCWiKZE+chlC3qZVa7JbgRwi7Pi8h+ZFG0o=\""
+          "Value": "\"XfXOqVhPXBGXf2JAkQc+T/oLMf6cOJ2ZHwWIUHAlap0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 11:00:13 GMT"
+          "Value": "Wed, 07 May 2025 11:34:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5790,18 +5851,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lDtxr1bcSCWiKZE+chlC3qZVa7JbgRwi7Pi8h+ZFG0o="
+          "Value": "sha256-XfXOqVhPXBGXf2JAkQc+T/oLMf6cOJ2ZHwWIUHAlap0="
         }
       ]
     },
     {
-      "Route": "css/site.zikvytedh9.css",
-      "AssetFile": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\c5dd2oh8c9-zikvytedh9.gz",
+      "Route": "css/site.peiggs9dfb.css",
+      "AssetFile": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\c5dd2oh8c9-peiggs9dfb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000964320154"
+          "Quality": "0.000946969697"
         }
       ],
       "ResponseHeaders": [
@@ -5811,15 +5872,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1036"
+          "Value": "1055"
         },
         {
           "Name": "ETag",
-          "Value": "\"lDtxr1bcSCWiKZE+chlC3qZVa7JbgRwi7Pi8h+ZFG0o=\""
+          "Value": "\"XfXOqVhPXBGXf2JAkQc+T/oLMf6cOJ2ZHwWIUHAlap0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 11:00:13 GMT"
+          "Value": "Wed, 07 May 2025 11:34:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5839,13 +5900,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"q49Dz5HPsXJha/q5WohLCho7B37mY2vFJUQAfeZWswQ=\""
+          "Value": "W/\"MZEb9jzZMY5uLae5mXDRj6NVGWOMQ/qxBN2fdhRYtVA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zikvytedh9"
+          "Value": "peiggs9dfb"
         },
         {
           "Name": "label",
@@ -5853,12 +5914,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-q49Dz5HPsXJha/q5WohLCho7B37mY2vFJUQAfeZWswQ="
+          "Value": "sha256-MZEb9jzZMY5uLae5mXDRj6NVGWOMQ/qxBN2fdhRYtVA="
         }
       ]
     },
     {
-      "Route": "css/site.zikvytedh9.css",
+      "Route": "css/site.peiggs9dfb.css",
       "AssetFile": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5868,7 +5929,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3073"
+          "Value": "3108"
         },
         {
           "Name": "Content-Type",
@@ -5876,11 +5937,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"q49Dz5HPsXJha/q5WohLCho7B37mY2vFJUQAfeZWswQ=\""
+          "Value": "\"MZEb9jzZMY5uLae5mXDRj6NVGWOMQ/qxBN2fdhRYtVA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 11:00:13 GMT"
+          "Value": "Wed, 07 May 2025 11:34:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5890,7 +5951,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zikvytedh9"
+          "Value": "peiggs9dfb"
         },
         {
           "Name": "label",
@@ -5898,13 +5959,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-q49Dz5HPsXJha/q5WohLCho7B37mY2vFJUQAfeZWswQ="
+          "Value": "sha256-MZEb9jzZMY5uLae5mXDRj6NVGWOMQ/qxBN2fdhRYtVA="
         }
       ]
     },
     {
-      "Route": "css/site.zikvytedh9.css.gz",
-      "AssetFile": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\c5dd2oh8c9-zikvytedh9.gz",
+      "Route": "css/site.peiggs9dfb.css.gz",
+      "AssetFile": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\obj\\Debug\\net9.0\\compressed\\c5dd2oh8c9-peiggs9dfb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5913,7 +5974,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1036"
+          "Value": "1055"
         },
         {
           "Name": "Content-Type",
@@ -5921,11 +5982,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lDtxr1bcSCWiKZE+chlC3qZVa7JbgRwi7Pi8h+ZFG0o=\""
+          "Value": "\"XfXOqVhPXBGXf2JAkQc+T/oLMf6cOJ2ZHwWIUHAlap0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 11:00:13 GMT"
+          "Value": "Wed, 07 May 2025 11:34:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5943,7 +6004,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zikvytedh9"
+          "Value": "peiggs9dfb"
         },
         {
           "Name": "label",
@@ -5951,7 +6012,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-lDtxr1bcSCWiKZE+chlC3qZVa7JbgRwi7Pi8h+ZFG0o="
+          "Value": "sha256-XfXOqVhPXBGXf2JAkQc+T/oLMf6cOJ2ZHwWIUHAlap0="
         }
       ]
     },
@@ -6250,88 +6311,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0="
-        }
-      ]
-    },
-    {
-      "Route": "img",
-      "AssetFile": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\wwwroot\\img",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "0"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 11:16:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
-        }
-      ]
-    },
-    {
-      "Route": "img.5ipweew5fc",
-      "AssetFile": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\wwwroot\\img",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "0"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 11:16:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "5ipweew5fc"
-        },
-        {
-          "Name": "label",
-          "Value": "img"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
         }
       ]
     },
@@ -26082,88 +26061,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-JKWeHUaANNuffeRatdc54UCb84RoxjEw/nTq8Mops8Y="
-        }
-      ]
-    },
-    {
-      "Route": "png-transparent-open-book-open-book-open-book.k3mw9v6f6v.png",
-      "AssetFile": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\wwwroot\\png-transparent-open-book-open-book-open-book.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "58619"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ICOm3mcV4pSZMS1J6ZPSy92Eg/NpPVmMatTLxN7/Fu8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 11:05:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "k3mw9v6f6v"
-        },
-        {
-          "Name": "label",
-          "Value": "png-transparent-open-book-open-book-open-book.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ICOm3mcV4pSZMS1J6ZPSy92Eg/NpPVmMatTLxN7/Fu8="
-        }
-      ]
-    },
-    {
-      "Route": "png-transparent-open-book-open-book-open-book.png",
-      "AssetFile": "C:\\Users\\Acer\\Desktop\\KutuphaneProje\\wwwroot\\png-transparent-open-book-open-book-open-book.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "58619"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ICOm3mcV4pSZMS1J6ZPSy92Eg/NpPVmMatTLxN7/Fu8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 11:05:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ICOm3mcV4pSZMS1J6ZPSy92Eg/NpPVmMatTLxN7/Fu8="
         }
       ]
     }

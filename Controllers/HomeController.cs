@@ -1,10 +1,12 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Kutuphane.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Kutuphane.Controllers;
 
-public class HomeController : Controller
+[Authorize]
+public class HomeController : BaseController
 {
     private readonly ILogger<HomeController> _logger;
 

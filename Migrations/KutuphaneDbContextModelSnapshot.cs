@@ -43,10 +43,15 @@ namespace Kutuphane.Migrations
                     b.Property<int>("BasimYili")
                         .HasColumnType("INTEGER");
 
+                    b.Property<int>("Durum")
+                        .HasColumnType("INTEGER");
+
                     b.Property<int?>("KategoriId")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("KitapAdi")
+                        .IsRequired()
+                        .HasMaxLength(100)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("YayinEvi")
@@ -68,6 +73,9 @@ namespace Kutuphane.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<DateTime>("AlisTarihi")
+                        .HasColumnType("TEXT");
+
                     b.Property<bool>("IadeEdildi")
                         .HasColumnType("INTEGER");
 
@@ -77,16 +85,10 @@ namespace Kutuphane.Migrations
                     b.Property<int>("KitapId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<DateTime>("OduncAlmaTarihi")
-                        .HasColumnType("TEXT");
-
                     b.Property<int>("OgrenciId")
                         .HasColumnType("INTEGER");
 
                     b.Property<DateTime>("SonTeslimTarihi")
-                        .HasColumnType("TEXT");
-
-                    b.Property<DateTime>("VerilisTarihi")
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
@@ -95,13 +97,16 @@ namespace Kutuphane.Migrations
 
                     b.HasIndex("OgrenciId");
 
-                    b.ToTable("KitapOdunc");
+                    b.ToTable("KitapOduncler");
                 });
 
             modelBuilder.Entity("Kutuphane.Models.Ogrenci", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<bool>("IsDeleted")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("OgrenciAdi")
@@ -137,6 +142,33 @@ namespace Kutuphane.Migrations
                     b.ToTable("Siniflar");
                 });
 
+            modelBuilder.Entity("Kutuphane.Models.User", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Email")
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Username")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Users");
+                });
+
             modelBuilder.Entity("Kutuphane.Models.Kitap", b =>
                 {
                     b.HasOne("Kutuphane.Models.Kategori", "Kategori")
@@ -151,13 +183,13 @@ namespace Kutuphane.Migrations
                     b.HasOne("Kutuphane.Models.Kitap", "Kitap")
                         .WithMany()
                         .HasForeignKey("KitapId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("Kutuphane.Models.Ogrenci", "Ogrenci")
                         .WithMany()
                         .HasForeignKey("OgrenciId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Kitap");

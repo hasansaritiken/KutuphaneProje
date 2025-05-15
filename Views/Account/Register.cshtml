@@ -1,0 +1,78 @@
+@{
+    ViewData["Title"] = "Kayıt";
+    Layout = "_Layout";
+}
+
+<div class="register-page">
+    <div class="register-box">
+        <div class="card card-outline card-primary">
+            <div class="card-header text-center">
+                <h1 class="h1"><b>Kütüphane</b> Sistemi</h1>
+            </div>
+            <div class="card-body">
+                <p class="login-box-msg">Yeni üyelik oluştur</p>
+                @if (TempData["Error"] != null)
+                {
+                    <div class="alert alert-danger">
+                        @TempData["Error"]
+                    </div>
+                }
+                <form method="post" asp-action="Register" asp-controller="Account">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Kullanıcı Adı" id="username" name="username" required>
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <span class="fas fa-user"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="E-posta" id="email" name="email" required>
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <span class="fas fa-envelope"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="password" class="form-control" placeholder="Şifre" id="password" name="password" required>
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <span class="fas fa-lock"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="password" class="form-control" placeholder="Şifre Tekrar" id="confirmPassword" name="confirmPassword" required>
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <span class="fas fa-lock"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary btn-block">Kayıt Ol</button>
+                        </div>
+                    </div>
+                </form>
+                <p class="mb-0 mt-3 text-center">
+                    <a href="@Url.Action("Login", "Account")" class="text-center">Zaten üye misiniz? Giriş yapın</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.register-page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e9ecef;
+}
+.register-box {
+    width: 400px;
+}
+</style> 

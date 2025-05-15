@@ -7,4 +7,5 @@ public class Ogrenci{
     public string? OkulNumarasi { get; set; }
     public int? SinifId { get; set; }
     public Sinif? Sinif { get; set; }
+    public bool IsDeleted { get; set; }
 }
