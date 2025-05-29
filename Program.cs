@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<Kutuphane.Data.KutuphaneDbContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("baglanti")));
+    options.UseSqlite("Data Source=KutuphaneDb.db"));
 
 // Add authentication
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
@@ -35,6 +35,24 @@ app.UseRouting();
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+// Admin kullanıcı ekleme
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<Kutuphane.Data.KutuphaneDbContext>();
+    if (!db.Users.Any())
+    {
+        db.Users.Add(new Kutuphane.Models.User
+        {
+            Username = "admin",
+            Password = "123456",
+            Email = "hasan@gmail.com",
+            IsActive = true,
+            IsAdmin = true
+        });
+        db.SaveChanges();
+    }
+}
 
 app.MapControllerRoute(
     name: "default",

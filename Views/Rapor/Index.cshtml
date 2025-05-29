@@ -1,0 +1,532 @@
+@{
+    ViewData["Title"] = "Raporlar";
+}
+
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">Raporlar</h3>
+    </div>
+    <div class="card-body">
+        <!-- Filtreleme Paneli -->
+        <div class="row mb-3 align-items-end">
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label>Sınıf Filtresi</label>
+                    <select id="sinifFilter" class="form-control">
+                        <option value="">Tümü</option>
+                        @foreach (var sinif in ViewBag.Siniflar)
+                        {
+                            <option value="@sinif.Id">@sinif.SinifAdi</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label>Kitap Filtresi</label>
+                    <select id="kitapFilter" class="form-control">
+                        <option value="">Tümü</option>
+                        @foreach (var kitap in ViewBag.Kitaplar)
+                        {
+                            <option value="@kitap.Id">@kitap.KitapAdi</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label>Öğrenci Filtresi</label>
+                    <select id="ogrenciFilter" class="form-control">
+                        <option value="">Tümü</option>
+                        @foreach (var ogrenci in ViewBag.Ogrenciler)
+                        {
+                            <option value="@ogrenci.Id">@ogrenci.OgrenciAdi @ogrenci.OgrenciSoyadi</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label>Başlangıç Tarihi</label>
+                    <input type="date" id="baslangicTarihi" class="form-control">
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label>Bitiş Tarihi</label>
+                    <input type="date" id="bitisTarihi" class="form-control">
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label>&nbsp;</label>
+                    <button id="filtreleBtn" class="btn btn-primary btn-block">Filtrele</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Rapor Seçim Butonları -->
+        <div class="row mb-3">
+            <div class="col-md-12">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-info" onclick="enCokOkuyanOgrenciler()">
+                        <i class="fas fa-users"></i> En Çok Okuyan Öğrenciler
+                    </button>
+                    <button type="button" class="btn btn-success" onclick="enCokOkunanKitaplar()">
+                        <i class="fas fa-book"></i> En Çok Okunan Kitaplar
+                    </button>
+                    <button type="button" class="btn btn-danger" onclick="gecikenKitaplar()">
+                        <i class="fas fa-clock"></i> Geciken Kitaplar
+                    </button>
+                </div>
+            </div>
+        </div>
+         <!-- Öğrenci ve Kitap Seçim Paneli - Sadece son iki rapor için göster -->
+        <div class="row mb-3" id="kitapOgrenciSecimPanel" style="display: none;">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>Öğrenci Seçimi</label>
+                    <select id="ogrenciSecim" class="form-control">
+                        <option value="">Öğrenci Seçin</option>
+                        @foreach (var ogrenci in ViewBag.Ogrenciler)
+                        {
+                            <option value="@ogrenci.Id">@ogrenci.OgrenciAdi @ogrenci.OgrenciSoyadi</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>Kitap Seçimi</label>
+                    <select id="kitapSecim" class="form-control">
+                        <option value="">Kitap Seçin</option>
+                        @foreach (var kitap in ViewBag.Kitaplar)
+                        {
+                            <option value="@kitap.Id">@kitap.KitapAdi</option>
+                        }
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ana Rapor Tablosu -->
+        <div class="table-responsive">
+            <table id="raporTable" class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Detaylar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Ödünç Verilmiş Kitaplar Tablosu (Sabit) -->
+<div class="card mt-4">
+    <div class="card-header">
+        <h3 class="card-title">Tüm Ödünç Kayıtları</h3>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table id="tumOduncTable" class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Kitap Adı</th>
+                        <th>Öğrenci Adı Soyadı</th>
+                        <th>Sınıf</th>
+                        <th>Alış Tarihi</th>
+                        <th>Son Teslim Tarihi</th>
+                        <th>İade Durumu</th>
+                        <th>İade Tarihi</th>
+                        <th>Gecikme Durumu</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            // Ana rapor tablosu
+            var raporTable = $('#raporTable').DataTable({
+                "paging": false,
+                "lengthChange": false,
+                "searching": false,
+                "ordering": true,
+                "info": false,
+                "autoWidth": false,
+                "responsive": true,
+                "language": {
+                    "url": "//cdn.datatables.net/plug-ins/1.10.24/i18n/Turkish.json"
+                }
+            });
+
+            // Tüm ödünç kayıtları tablosu
+            var tumOduncTable = $('#tumOduncTable').DataTable({
+                "paging": false,
+                "lengthChange": false,
+                "searching": false,
+                "ordering": true,
+                "info": false,
+                "autoWidth": false,
+                "responsive": true,
+                "language": {
+                    "url": "//cdn.datatables.net/plug-ins/1.10.24/i18n/Turkish.json"
+                },
+                 order: [[ 3, "desc" ]] // Alış Tarihine göre azalan sıralama
+            });
+
+            // Select2 kütüphanesini ekle
+            $('#sinifFilter, #kitapFilter, #ogrenciFilter, #ogrenciSecim, #kitapSecim').select2({
+                theme: 'bootstrap4',
+                width: '100%',
+                placeholder: 'Seçim Yapın',
+                allowClear: true
+            });
+
+            // Sayfa yüklendiğinde tüm ödünç kayıtlarını göster
+            loadTumOduncKayitlari();
+
+            // Buton tıklama olayları
+            $('#filtreleBtn').click(function() {
+                // Filtreleme butonuna basıldığında seçili rapora göre filtre uygula
+                var activeReport = $('.btn-group .btn.active').attr('onclick');
+                if (activeReport) {
+                     // onclick stringinden fonksiyon adını al
+                    var funcName = activeReport.substring(0, activeReport.indexOf('('));
+                    // ilgili fonksiyonu çağır
+                    window[funcName]();
+                } else {
+                    // Eğer hiçbir rapor seçili değilse veya ilk yüklendiğinde
+                    enCokOkuyanOgrenciler(); // Varsayılan olarak ilk raporu göster
+                }
+                 // Tüm ödünç kayıtları listesini de filtreye göre güncelle
+                loadTumOduncKayitlari();
+            });
+
+             // Öğrenci seçimi değiştiğinde ilgili raporu göster
+            $('#ogrenciSecim').change(function() {
+                var ogrenciId = $(this).val();
+                if (ogrenciId) {
+                    ogrenciKitapListesi(ogrenciId);
+                } else {
+                     raporTable.clear().draw(); // Seçim temizlenirse tabloyu boşalt
+                }
+            });
+
+            // Kitap seçimi değiştiğinde ilgili raporu göster
+            $('#kitapSecim').change(function() {
+                var kitapId = $(this).val();
+                if (kitapId) {
+                    kitapOgrenciListesi(kitapId);
+                } else {
+                    raporTable.clear().draw(); // Seçim temizlenirse tabloyu boşalt
+                }
+            });
+
+            // Rapor butonları active class işlemleri
+             $('.btn-group .btn').click(function() {
+                $('.btn-group .btn').removeClass('active');
+                $(this).addClass('active');
+                 // Öğrenci ve Kitap Seçim Panelini gizle/göster
+                if ($(this).is('#ogrenciKitaplariBtn') || $(this).is('#kitapOgrencileriBtn')) {
+                    $('#kitapOgrenciSecimPanel').show();
+                     // Diğer filtreleri temizle
+                    $('#sinifFilter').val('').trigger('change');
+                    $('#baslangicTarihi').val('');
+                    $('#bitisTarihi').val('');
+                     // Ana rapor tablosunu boşalt
+                    raporTable.clear().draw();
+                } else {
+                     $('#kitapOgrenciSecimPanel').hide();
+                      // Öğrenci/Kitap seçimini temizle
+                    $('#ogrenciSecim').val('').trigger('change');
+                    $('#kitapSecim').val('').trigger('change');
+                }
+            });
+
+             // Sayfa yüklendiğinde ilk rapor butonunu active yap (isteğe bağlı)
+             $('.btn-group .btn:first').addClass('active');
+        });
+
+        // Rapor Yükleme Fonksiyonları
+
+        function enCokOkuyanOgrenciler() {
+             // loadTumOduncKayitlari(); // Bu rapor için tüm ödünçleri yüklemeye gerek yok
+            var sinifId = $('#sinifFilter').val();
+            var baslangicTarihi = $('#baslangicTarihi').val();
+            var bitisTarihi = $('#bitisTarihi').val();
+             var raporTable = $('#raporTable').DataTable();
+             raporTable.clear().draw();
+             raporTable.row.add(['<td colspan="1" class="text-center"><i class="fas fa-spinner fa-spin"></i> Rapor verileri yükleniyor...</td>']).draw();
+
+            $.get('/Rapor/EnCokOkuyanOgrenciler', {
+                sinifId: sinifId,
+                baslangicTarihi: baslangicTarihi,
+                bitisTarihi: bitisTarihi
+            }, function(data) {
+                console.log('En Çok Okuyan Öğrenciler API Yanıtı:', data);
+                raporTable.clear();
+                if (data && data.length > 0) {
+                    console.log('Veri bulundu, tabloya ekleniyor...', data.length, 'kayıt');
+                    data.forEach(function(item) {
+                        raporTable.row.add([
+                            `<div class="p-2">
+                                <strong>Öğrenci:</strong> ${item.ogrenciAdi} ${item.ogrenciSoyadi}<br>
+                                <strong>Sınıf:</strong> ${item.sinifAdi}<br>
+                                <strong>Okunan Kitap Sayısı:</strong> ${item.okunanKitapSayisi}
+                            </div>`
+                        ]);
+                    });
+                } else {
+                    console.log('API yanıtı boş veya geçersiz.');
+                     raporTable.row.add(['<td colspan="1" class="text-center">Kayıt bulunamadı</td>']);
+                }
+                raporTable.draw();
+            }).fail(function() {
+                console.error('En Çok Okuyan Öğrenciler API Hatası:', arguments);
+                raporTable.clear().draw();
+                raporTable.row.add(['<td colspan="1" class="text-center alert alert-danger">Rapor verileri yüklenirken bir hata oluştu</td>']).draw();
+            });
+        }
+
+        function enCokOkunanKitaplar() {
+             // loadTumOduncKayitlari(); // Bu rapor için tüm ödünçleri yüklemeye gerek yok
+            var sinifId = $('#sinifFilter').val();
+            var baslangicTarihi = $('#baslangicTarihi').val();
+            var bitisTarihi = $('#bitisTarihi').val();
+            var raporTable = $('#raporTable').DataTable();
+            raporTable.clear().draw();
+            raporTable.row.add(['<td colspan="1" class="text-center"><i class="fas fa-spinner fa-spin"></i> Rapor verileri yükleniyor...</td>']).draw();
+
+            $.get('/Rapor/EnCokOkunanKitaplar', {
+                sinifId: sinifId,
+                baslangicTarihi: baslangicTarihi,
+                bitisTarihi: bitisTarihi
+            }, function(data) {
+                 console.log('En Çok Okunan Kitaplar API Yanıtı:', data);
+                raporTable.clear();
+                if (data && data.length > 0) {
+                     console.log('Veri bulundu, tabloya ekleniyor...', data.length, 'kayıt');
+                    data.forEach(function(item) {
+                        raporTable.row.add([
+                            `<div class="p-2">
+                                <strong>Kitap:</strong> ${item.kitapAdi}<br>
+                                <strong>Okunma Sayısı:</strong> ${item.okunmaSayisi}
+                            </div>`
+                        ]);
+                    });
+                 } else {
+                      console.log('API yanıtı boş veya geçersiz.');
+                      raporTable.row.add(['<td colspan="1" class="text-center">Kayıt bulunamadı</td>']);
+                   }
+                raporTable.draw();
+            }).fail(function() {
+                 console.error('En Çok Okunan Kitaplar API Hatası:', arguments);
+                 raporTable.clear().draw();
+                 raporTable.row.add(['<td colspan="1" class="text-center alert alert-danger">Rapor verileri yüklenirken bir hata oluştu</td>']).draw();
+            });
+        }
+
+        function gecikenKitaplar() {
+             // loadTumOduncKayitlari(); // Bu rapor için tüm ödünçleri yüklemeye gerek yok
+            var sinifId = $('#sinifFilter').val();
+             var raporTable = $('#raporTable').DataTable();
+             raporTable.clear().draw();
+            raporTable.row.add(['<td colspan="1" class="text-center"><i class="fas fa-spinner fa-spin"></i> Rapor verileri yükleniyor...</td>']).draw();
+
+            $.get('/Rapor/GecikenKitaplar', {
+                sinifId: sinifId
+            }, function(response) {
+                console.log('Geciken Kitaplar API Yanıtı:', response);
+                raporTable.clear();
+                if (response.success && response.data && response.data.length > 0) {
+                     console.log('Veri bulundu, tabloya ekleniyor...', response.data.length, 'kayıt');
+                    response.data.forEach(function(item) {
+                        raporTable.row.add([
+                            `<div class="p-2">
+                                <strong>Kitap:</strong> ${item.KitapAdi}<br>
+                                <strong>Öğrenci:</strong> ${item.OgrenciAdi} ${item.OgrenciSoyadi}<br>
+                                <strong>Sınıf:</strong> ${item.SinifAdi}<br>
+                                <strong>Alış Tarihi:</strong> ${new Date(item.AlisTarihi).toLocaleDateString()}<br>
+                                <strong>Son Teslim Tarihi:</strong> ${new Date(item.SonTeslimTarihi).toLocaleDateString()}<br>
+                                <strong>Gecikme Günü:</strong> ${item.GecikmeGunSayisi}
+                            </div>`
+                        ]);
+                    });
+                } else {
+                    // Veri gelmediyse veya success false ise
+                     console.log('API yanıtı boş veya geçersiz.');
+                    raporTable.row.add(['<td colspan="1" class="text-center">Geciken kitap bulunamadı</td>']);
+                }
+                raporTable.draw();
+            }).fail(function(){
+                 console.error('Geciken Kitaplar API Hatası:', arguments);
+                 raporTable.clear().draw();
+                 raporTable.row.add(['<td colspan="1" class="text-center alert alert-danger">Rapor verileri yüklenirken bir hata oluştu</td>']).draw();
+            });
+        }
+
+        function ogrenciKitapListesi(ogrenciId) {
+             // loadTumOduncKayitlari(); // Bu rapor için tüm ödünçleri yüklemeye gerek yok
+             var raporTable = $('#raporTable').DataTable();
+             raporTable.clear().draw();
+            raporTable.row.add(['<td colspan="1" class="text-center"><i class="fas fa-spinner fa-spin"></i> Rapor verileri yükleniyor...</td>']).draw();
+
+            $.get('/Rapor/OgrenciKitapListesi', {
+                ogrenciId: ogrenciId
+            }, function(data) {
+                 console.log('Öğrencinin Okuduğu Kitaplar API Yanıtı:', data);
+                raporTable.clear();
+                if (data && data.length > 0) {
+                     console.log('Veri bulundu, tabloya ekleniyor...', data.length, 'kayıt');
+                    data.forEach(function(item) {
+                        raporTable.row.add([
+                            `<div class="p-2">
+                                <strong>Kitap:</strong> ${item.kitapAdi}<br>
+                                <strong>Alış Tarihi:</strong> ${new Date(item.alisTarihi).toLocaleDateString()}<br>
+                                <strong>İade Tarihi:</strong> ${item.iadeTarihi ? new Date(item.iadeTarihi).toLocaleDateString() : '-'}
+                            </div>`
+                        ]);
+                    });
+                } else {
+                     console.log('API yanıtı boş veya geçersiz.');
+                     raporTable.row.add(['<td colspan="1" class="text-center">Kayıt bulunamadı</td>']);
+                 }
+                raporTable.draw();
+            }).fail(function(){
+                 console.error('Öğrencinin Okuduğu Kitaplar API Hatası:', arguments);
+                 raporTable.clear().draw();
+                 raporTable.row.add(['<td colspan="1" class="text-center alert alert-danger">Rapor verileri yüklenirken bir hata oluştu</td>']).draw();
+            });
+        }
+
+        function kitapOgrenciListesi(kitapId) {
+             // loadTumOduncKayitlari(); // Bu rapor için tüm ödünçleri yüklemeye gerek yok
+             var raporTable = $('#raporTable').DataTable();
+             raporTable.clear().draw();
+             raporTable.row.add(['<td colspan="1" class="text-center"><i class="fas fa-spinner fa-spin"></i> Rapor verileri yükleniyor...</td>']).draw();
+
+            $.get('/Rapor/KitapOgrenciListesi', {
+                kitapId: kitapId
+            }, function(data) {
+                 console.log('Kitabı Okuyan Öğrenciler API Yanıtı:', data);
+                raporTable.clear();
+                if (data && data.length > 0) {
+                     console.log('Veri bulundu, tabloya ekleniyor...', data.length, 'kayıt');
+                    data.forEach(function(item) {
+                        raporTable.row.add([
+                            `<div class="p-2">
+                                <strong>Öğrenci:</strong> ${item.ogrenciAdi} ${item.ogrenciSoyadi}<br>
+                                <strong>Sınıf:</strong> ${item.sinifAdi}<br>
+                                <strong>Alış Tarihi:</strong> ${new Date(item.alisTarihi).toLocaleDateString()}<br>
+                                <strong>İade Tarihi:</strong> ${item.iadeTarihi ? new Date(item.iadeTarihi).toLocaleDateString() : '-'}
+                            </div>`
+                        ]);
+                    });
+                 } else {
+                     console.log('API yanıtı boş veya geçersiz.');
+                     raporTable.row.add(['<td colspan="1" class="text-center">Kayıt bulunamadı</td>']);
+                 }
+                raporTable.draw();
+            }).fail(function(){
+                 console.error('Kitabı Okuyan Öğrenciler API Hatası:', arguments);
+                 raporTable.clear().draw();
+                 raporTable.row.add(['<td colspan="1" class="text-center alert alert-danger">Rapor verileri yüklenirken bir hata oluştu</td>']).draw();
+            });
+        }
+
+        // Tüm ödünç kayıtlarını yükleme fonksiyonu (sayfanın altındaki sabit tablo için)
+        function loadTumOduncKayitlari() {
+            var sinifId = $('#sinifFilter').val();
+            var kitapId = $('#kitapFilter').val();
+            var ogrenciId = $('#ogrenciFilter').val();
+            var baslangicTarihi = $('#baslangicTarihi').val();
+            var bitisTarihi = $('#bitisTarihi').val();
+
+            var tumOduncTable = $('#tumOduncTable').DataTable();
+            tumOduncTable.clear().draw();
+
+            $.ajax({
+                url: '/Rapor/TumOduncKitaplar',
+                type: 'GET',
+                data: {
+                    sinifId: sinifId,
+                    kitapId: kitapId,
+                    ogrenciId: ogrenciId,
+                    baslangicTarihi: baslangicTarihi,
+                    bitisTarihi: bitisTarihi
+                },
+                success: function(response) {
+                    console.log('Tüm Ödünç Kitaplar API Yanıtı:', response);
+                    
+                    tumOduncTable.clear();
+                    
+                    if (response.success && response.data && response.data.length > 0) {
+                        response.data.forEach(function(item) {
+                            // İade durumu
+                            var iadeDurumu = item.iadeEdildi ? 
+                                '<span class="badge badge-success">İade Edildi</span>' : 
+                                '<span class="badge badge-warning">Teslim Edilmedi</span>';
+                            
+                            // Gecikme durumu
+                            var gecikmeDurumu = '';
+                            if (item.iadeEdildi) {
+                                // İade edildiyse son teslim tarihine göre gecikme hesapla
+                                var gecikmeGun = Math.floor((new Date(item.iadeTarihi) - new Date(item.sonTeslimTarihi)) / (1000 * 60 * 60 * 24));
+                                if (gecikmeGun > 0) {
+                                    gecikmeDurumu = `<span class="badge badge-danger">${gecikmeGun} gün gecikmeli teslim</span>`;
+                                } else {
+                                    gecikmeDurumu = '<span class="badge badge-success">Zamanında teslim</span>';
+                                }
+                            } else {
+                                // İade edilmediyse bugüne göre gecikme hesapla
+                                var bugun = new Date();
+                                var sonTeslim = new Date(item.sonTeslimTarihi);
+                                var timeDiff = bugun.getTime() - sonTeslim.getTime();
+                                var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
+
+                                if (diffDays > 0) {
+                                    gecikmeDurumu = `<span class="badge badge-danger">${diffDays} gün gecikmiş</span>`;
+                                } else {
+                                     var kalanGun = Math.abs(diffDays);
+                                     gecikmeDurumu = `<span class="badge badge-info">${kalanGun} gün kaldı</span>`;
+                                }
+                            }
+
+                            // Tablo satırı
+                            tumOduncTable.row.add([
+                                item.kitap?.kitapAdi || 'Kitap Silinmiş',
+                                item.ogrenci ? item.ogrenci.ogrenciAdi + ' ' + item.ogrenci.ogrenciSoyadi : 'Öğrenci Silinmiş',
+                                item.ogrenci?.sinif?.sinifAdi || '-',
+                                new Date(item.alisTarihi).toLocaleDateString(),
+                                new Date(item.sonTeslimTarihi).toLocaleDateString(),
+                                iadeDurumu,
+                                item.iadeTarihi ? new Date(item.iadeTarihi).toLocaleDateString() : '-',
+                                gecikmeDurumu
+                            ]);
+                        });
+                    } else {
+                        tumOduncTable.row.add(['<td colspan="8" class="text-center">Kayıt bulunamadı</td>']);
+                    }
+                    
+                    tumOduncTable.draw();
+                },
+                error: function(xhr, status, error) {
+                    console.error('Tüm Ödünç Kitaplar API Hatası:', {xhr, status, error});
+                    var tumOduncTable = $('#tumOduncTable').DataTable();
+                    tumOduncTable.clear();
+                    tumOduncTable.row.add(['<td colspan="8" class="text-center alert alert-danger">Veriler yüklenirken bir hata oluştu</td>']);
+                    tumOduncTable.draw();
+                }
+            });
+        }
+    </script>
+} 

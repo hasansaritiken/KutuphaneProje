@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/css/adminlte.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2-bootstrap4-theme@1.0.0/dist/select2-bootstrap4.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -97,7 +100,7 @@
                         </li>
                         <li class="nav-item has-treeview">
                             <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-exchange-alt"></i>
+                                <i class="nav-icon fas fa-book"></i>
                                 <p>
                                     Ödünç İşlemleri
                                     <i class="right fas fa-angle-left"></i>
@@ -107,7 +110,7 @@
                                 <li class="nav-item">
                                     <a href="/KitapOdunc/Index" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Ödünç Listesi</p>
+                                        <p>Aktif Ödünçler</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
@@ -116,10 +119,21 @@
                                         <p>Yeni Ödünç Ver</p>
                                     </a>
                                 </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item has-treeview">
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon fas fa-chart-bar"></i>
+                                <p>
+                                    Raporlar
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="/KitapOdunc/Rapor" class="nav-link">
+                                    <a href="/Rapor/Index" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Rapor Listesi</p>
+                                        <p>Genel Raporlar</p>
                                     </a>
                                 </li>
                             </ul>
@@ -170,6 +184,22 @@
                                 </li>
                             </ul>
                         </li>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            var username = User.Identity.Name;
+                            var isAdmin = Context.RequestServices.GetService<Kutuphane.Data.KutuphaneDbContext>()
+                                .Users.FirstOrDefault(u => u.Username == username)?.IsAdmin ?? false;
+                            
+                            @if (isAdmin)
+                            {
+                                <li class="nav-item">
+                                    <a href="/Admin" class="nav-link">
+                                        <i class="nav-icon fas fa-users-cog"></i>
+                                        <p>Kullanıcı Yönetimi</p>
+                                    </a>
+                                </li>
+                            }
+                        }
                     </ul>
                 </nav>
             </div>
@@ -205,8 +235,9 @@
     @if (User.Identity.IsAuthenticated)
     {
         <footer class="main-footer">
-            <strong>Copyright &copy; @DateTime.Now.Year <a href="/">Kütüphane Yönetim Sistemi</a>.</strong>
-            Tüm hakları saklıdır.
+            <div class="text-center">
+                <strong>Hasan Sarıtiken 566</strong>
+            </div>
         </footer>
         <aside class="control-sidebar control-sidebar-dark">
         </aside>
@@ -216,6 +247,8 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/js/adminlte.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
 <script src="~/js/site.js" asp-append-version="true"></script>
 @await RenderSectionAsync("Scripts", required: false)
 </body>

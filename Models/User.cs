@@ -17,5 +17,6 @@ namespace Kutuphane.Models
 
         public string? Email { get; set; }
         public bool IsActive { get; set; } = true;
+        public bool IsAdmin { get; set; } = false;
     }
 } 

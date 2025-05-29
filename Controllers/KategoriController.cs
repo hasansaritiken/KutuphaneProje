@@ -22,6 +22,7 @@ public class KategoriController : Controller
     {
         var kategoriler = await _context.Kategoriler
             .Include(k => k.Kitaplar)
+            .Where(k => !k.IsDeleted)
             .OrderBy(k => k.KategoriAdi)
             .ToListAsync();
         return View(kategoriler);
@@ -123,18 +124,25 @@ public class KategoriController : Controller
         return View(kategori);
     }
 
-    [HttpPost, ActionName("Sil")]
+    [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> SilOnayla(int id)
     {
-        var kategori = await _context.Kategoriler.FindAsync(id);
-        if (kategori == null)
+        try
         {
-            return NotFound();
-        }
+            var kategori = await _context.Kategoriler.FindAsync(id);
+            if (kategori == null)
+            {
+                return Json(new { success = false, message = "Kategori bulunamadı." });
+            }
 
-        _context.Kategoriler.Remove(kategori);
-        await _context.SaveChangesAsync();
-        return RedirectToAction(nameof(Index));
+            kategori.IsDeleted = true;
+            await _context.SaveChangesAsync();
+            return Json(new { success = true });
+        }
+        catch (Exception ex)
+        {
+            return Json(new { success = false, message = ex.Message });
+        }
     }
 }

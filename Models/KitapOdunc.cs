@@ -33,6 +33,9 @@ public class KitapOdunc
     [DataType(DataType.Date)]
     public DateTime? IadeTarihi { get; set; }
 
+    [Display(Name = "Silindi")]
+    public bool IsDeleted { get; set; } = false;
+
     [ForeignKey("OgrenciId")]
     [DeleteBehavior(DeleteBehavior.Restrict)]
     public virtual Ogrenci? Ogrenci { get; set; }

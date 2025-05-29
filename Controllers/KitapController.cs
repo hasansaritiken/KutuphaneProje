@@ -17,7 +17,10 @@ namespace Kutuphane.Controllers
         // GET: Kitap
         public async Task<IActionResult> Index()
         {
-            var kitaplar = await _context.Kitaplar.Include(k => k.Kategori).ToListAsync();
+            var kitaplar = await _context.Kitaplar
+                .Include(k => k.Kategori)
+                .Where(k => k.Durum != KitapDurumu.Kayip)
+                .ToListAsync();
             return View(kitaplar);
         }
 
@@ -119,7 +122,7 @@ namespace Kutuphane.Controllers
             var kitap = await _context.Kitaplar.FindAsync(id);
             if (kitap != null)
             {
-                _context.Kitaplar.Remove(kitap);
+                kitap.Durum = KitapDurumu.Kayip;
                 await _context.SaveChangesAsync();
             }
             return RedirectToAction(nameof(Index));

@@ -1,7 +1,7 @@
-﻿@model Ogrenci
+﻿@model Kutuphane.Models.Kategori
 
 <h2>Kategori Sil</h2>
-<p>silmek istediğinize emin misiniz?</p>
+<p>@Model.KategoriAdi kategorisini silmek istediğinize emin misiniz?</p>
 
 <form asp-action="Sil" method="post" asp-controller="Kategori">
     <input type="hidden" asp-for="Id" />

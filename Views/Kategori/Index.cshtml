@@ -8,8 +8,8 @@
     <div class="card-header">
         <h3 class="card-title">Kategori Listesi</h3>
         <div class="card-tools">
-            <a href="@Url.Action("Ekle")" class="btn btn-primary btn-sm">
-                <i class="fas fa-plus"></i> Yeni Kategori
+            <a href="/Kategori/Ekle" class="btn btn-primary btn-sm">
+                <i class="fas fa-plus"></i> Yeni Kategori Ekle
             </a>
         </div>
     </div>
@@ -24,25 +24,21 @@
             <thead>
                 <tr>
                     <th>Kategori Adı</th>
-                    <th>Açıklama</th>
-                    <th>Kitap Sayısı</th>
                     <th>İşlemler</th>
                 </tr>
             </thead>
             <tbody>
-                @foreach (var item in Model)
+                @foreach (var kategori in Model)
                 {
                     <tr>
-                        <td>@item.KategoriAdi</td>
-                        <td>@item.Aciklama</td>
-                        <td>@(item.Kitaplar?.Count ?? 0)</td>
+                        <td>@kategori.KategoriAdi</td>
                         <td>
-                            <a asp-action="Guncelle" asp-route-id="@item.Id" class="btn btn-warning btn-sm">
+                            <a href="/Kategori/Duzenle/@kategori.Id" class="btn btn-sm btn-info">
                                 <i class="fas fa-edit"></i> Düzenle
                             </a>
-                            <a asp-action="Sil" asp-route-id="@item.Id" class="btn btn-danger btn-sm">
+                            <button class="btn btn-sm btn-danger silBtn" data-id="@kategori.Id">
                                 <i class="fas fa-trash"></i> Sil
-                            </a>
+                            </button>
                         </td>
                     </tr>
                 }
@@ -51,19 +47,45 @@
     </div>
 </div>
 
+@Html.AntiForgeryToken()
+
 @section Scripts {
     <script>
-        $(document).ready(function () {
-            $('#kategoriTable').DataTable({
-                "paging": true,
-                "lengthChange": true,
-                "searching": true,
+        $(function () {
+            $("#kategoriTable").DataTable({
+                "paging": false,
+                "lengthChange": false,
+                "searching": false,
                 "ordering": true,
-                "info": true,
+                "info": false,
                 "autoWidth": false,
                 "responsive": true,
                 "language": {
                     "url": "//cdn.datatables.net/plug-ins/1.10.24/i18n/Turkish.json"
+                }
+            });
+
+            $('.silBtn').click(function() {
+                var kategoriId = $(this).data('id');
+                if (confirm('Bu kategoriyi silmek istediğinize emin misiniz?')) {
+                    $.ajax({
+                        url: '/Kategori/SilOnayla/' + kategoriId,
+                        type: 'POST',
+                        headers: {
+                            'RequestVerificationToken': $('input[name="__RequestVerificationToken"]').val()
+                        },
+                        success: function(response) {
+                            if (response.success) {
+                                window.location.reload();
+                            } else {
+                                alert(response.message || 'Silme işlemi başarısız oldu.');
+                            }
+                        },
+                        error: function(xhr, status, error) {
+                            console.error('Hata:', error);
+                            alert('Silme işlemi sırasında bir hata oluştu: ' + error);
+                        }
+                    });
                 }
             });
         });

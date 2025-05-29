@@ -56,7 +56,7 @@ namespace Kutuphane.Controllers
                 return View();
             }
 
-            var kitap = _context.Kitaplar.Find(KitapId);
+            var kitap = _context.Kitaplar.FirstOrDefault(k => k.Id == KitapId);
             if (kitap == null || kitap.Durum != KitapDurumu.Musait)
             {
                 TempData["Error"] = "Seçilen kitap ödünç verilemez durumda.";
@@ -65,10 +65,10 @@ namespace Kutuphane.Controllers
                 return View();
             }
 
-            var ogrenci = _context.Ogrenciler.Find(OgrenciId);
-            if (ogrenci == null || ogrenci.IsDeleted)
+            var ogrenci = _context.Ogrenciler.FirstOrDefault(o => o.Id == OgrenciId && !o.IsDeleted);
+            if (ogrenci == null)
             {
-                TempData["Error"] = "Seçilen öğrenci bulunamadı.";
+                TempData["Error"] = "Seçilen öğrenci bulunamadı veya silinmiş.";
                 ViewBag.Kitaplar = _context.Kitaplar.Where(k => k.Durum == KitapDurumu.Musait).ToList();
                 ViewBag.Ogrenciler = _context.Ogrenciler.Where(o => !o.IsDeleted).ToList();
                 return View();

@@ -26,6 +26,9 @@ namespace Kutuphane.Migrations
                     b.Property<string>("Aciklama")
                         .HasColumnType("TEXT");
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("INTEGER");
+
                     b.Property<string>("KategoriAdi")
                         .HasColumnType("TEXT");
 
@@ -81,6 +84,9 @@ namespace Kutuphane.Migrations
 
                     b.Property<DateTime?>("IadeTarihi")
                         .HasColumnType("TEXT");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("INTEGER");
 
                     b.Property<int>("KitapId")
                         .HasColumnType("INTEGER");
@@ -152,6 +158,9 @@ namespace Kutuphane.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<bool>("IsActive")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<bool>("IsAdmin")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Password")

@@ -67,15 +67,15 @@
     <script>
         $(document).ready(function () {
             $('#kitapOduncTable').DataTable({
-                "paging": true,
-                "lengthChange": true,
-                "searching": true,
+                "paging": false,
+                "lengthChange": false,
+                "searching": false,
                 "ordering": true,
-                "info": true,
+                "info": false,
                 "autoWidth": false,
                 "responsive": true,
                 "language": {
-                    "url": "//cdn.datatables.net/plug-ins/1.10.24/i18n/Turkish.json"
+                    "url": "/js/datatables-i18n/Turkish.json"
                 }
             });
         });
